@@ -1,7 +1,7 @@
 {
 	"textures": [
 		{
-			"image": "https://cdn.glitch.com/9d4cf917-e7d4-4a38-bfaa-b9cd2e2568ae%2F6FA860DA-7E15-4139-AAEC-19459A37E456.png?v=1626204428854",
+			"image": "/img/loading.png",
 			"format": "RGBA8888",
 			"size": {
 				"w": 957,

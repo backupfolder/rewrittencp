@@ -1,7 +1,7 @@
 {
 	"textures": [
 		{
-			"image": "https://cdn.glitch.com/9d4cf917-e7d4-4a38-bfaa-b9cd2e2568ae%2F2602B6D5-8C6D-4A02-9A44-2412CB45D9A1.png?v=1626122368997",
+			"image": "/img/3.png",
 			"format": "RGBA8888",
 			"size": {
 				"w": 2048,
@@ -8559,7 +8559,7 @@
 			]
 		},
 	  {
-			"image": "https://cdn.glitch.com/9d4cf917-e7d4-4a38-bfaa-b9cd2e2568ae%2F12EE744B-E59C-4D84-A9EE-1B29E2364ED1.png?v=1626123474845",
+			"image": "/img/4.png",
 			"format": "RGBA8888",
 			"size": {
 				"w": 2044,
@@ -9683,7 +9683,7 @@
 			]
 		},
 		{
-			"image": "https://cdn.glitch.com/9d4cf917-e7d4-4a38-bfaa-b9cd2e2568ae%2FA3795924-BB0C-4B1E-81E1-E1FBC870E623.png?v=1626123373330",
+			"image": "/img/1.png",
 			"format": "RGBA8888",
 			"size": {
 				"w": 1993,
@@ -10135,7 +10135,7 @@
 			]
 		},
 		{
-			"image": "https://cdn.glitch.com/9d4cf917-e7d4-4a38-bfaa-b9cd2e2568ae%2F7F5A2F37-EE21-494C-A4C7-91C723C9D092.png?v=1626123576609",
+			"image": "/img/2.png",
 			"format": "RGBA8888",
 			"size": {
 				"w": 985,

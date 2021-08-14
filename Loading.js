@@ -6,8 +6,8 @@ class Loading extends Phaser.Scene {
     super('loadingGame');
   }
   preload() {   
-    this.load.multiatlas('atlaspenguin-1', 'assets/atlaspenguin-1.json', 'assets');
-    this.load.multiatlas('atlaspenguin-0', 'assets/atlaspenguin-0.json', 'assets');
+    this.load.multiatlas('atlaspenguin-1', 'assets/json/atlaspenguin-1.json', 'assets');
+    this.load.multiatlas('atlaspenguin-0', 'assets/json/atlaspenguin-0.json', 'assets');
     
    /* this.load.on('progress', function (value) {
     console.log(value);
