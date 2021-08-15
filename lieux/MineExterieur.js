@@ -4,7 +4,7 @@ class MineExterieur extends Phaser.Scene {
     super('mineExterieur');
   }
   create() {
-    console.log('scene game');
+    
   }
 
 }

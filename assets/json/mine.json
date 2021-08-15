@@ -1,0 +1,8652 @@
+{
+	"textures": [
+		{
+			"image": "/img/mineExterieur/1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2048,
+				"h": 2048
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "shack/background",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1531,
+						"h": 967
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1531,
+						"h": 967
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1531,
+						"h": 967
+					}
+				},
+				{
+					"filename": "shack/shack_building",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 474,
+						"h": 528
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 472,
+						"h": 528
+					},
+					"frame": {
+						"x": 1534,
+						"y": 1,
+						"w": 472,
+						"h": 528
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0024",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 39,
+						"h": 88
+					},
+					"frame": {
+						"x": 2008,
+						"y": 1,
+						"w": 39,
+						"h": 88
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0025",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 39,
+						"h": 88
+					},
+					"frame": {
+						"x": 2008,
+						"y": 1,
+						"w": 39,
+						"h": 88
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0026",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 39,
+						"h": 88
+					},
+					"frame": {
+						"x": 2008,
+						"y": 1,
+						"w": 39,
+						"h": 88
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0027",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 39,
+						"h": 88
+					},
+					"frame": {
+						"x": 2008,
+						"y": 1,
+						"w": 39,
+						"h": 88
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0028",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 39,
+						"h": 88
+					},
+					"frame": {
+						"x": 2008,
+						"y": 1,
+						"w": 39,
+						"h": 88
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0029",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 39,
+						"h": 88
+					},
+					"frame": {
+						"x": 2008,
+						"y": 1,
+						"w": 39,
+						"h": 88
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0030",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 39,
+						"h": 88
+					},
+					"frame": {
+						"x": 2008,
+						"y": 1,
+						"w": 39,
+						"h": 88
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0032",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 94,
+						"y": 403,
+						"w": 37,
+						"h": 60
+					},
+					"frame": {
+						"x": 2008,
+						"y": 91,
+						"w": 37,
+						"h": 60
+					}
+				},
+				{
+					"filename": "shack/yardsign",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 34,
+						"h": 68
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 34,
+						"h": 68
+					},
+					"frame": {
+						"x": 2008,
+						"y": 153,
+						"w": 34,
+						"h": 68
+					}
+				},
+				{
+					"filename": "shack/spray/spray_0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 44,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 26,
+						"w": 33,
+						"h": 58
+					},
+					"frame": {
+						"x": 2008,
+						"y": 223,
+						"w": 33,
+						"h": 58
+					}
+				},
+				{
+					"filename": "shack/spray/spray_0004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 44,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 26,
+						"w": 33,
+						"h": 58
+					},
+					"frame": {
+						"x": 2008,
+						"y": 223,
+						"w": 33,
+						"h": 58
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0034",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 92,
+						"y": 435,
+						"w": 33,
+						"h": 26
+					},
+					"frame": {
+						"x": 2008,
+						"y": 283,
+						"w": 33,
+						"h": 26
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0013",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 14,
+						"w": 32,
+						"h": 37
+					},
+					"frame": {
+						"x": 2008,
+						"y": 311,
+						"w": 32,
+						"h": 37
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0014",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 14,
+						"w": 32,
+						"h": 37
+					},
+					"frame": {
+						"x": 2008,
+						"y": 311,
+						"w": 32,
+						"h": 37
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0015",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 14,
+						"w": 32,
+						"h": 37
+					},
+					"frame": {
+						"x": 2008,
+						"y": 311,
+						"w": 32,
+						"h": 37
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0016",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 14,
+						"w": 32,
+						"h": 37
+					},
+					"frame": {
+						"x": 2008,
+						"y": 311,
+						"w": 32,
+						"h": 37
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0017",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 14,
+						"w": 32,
+						"h": 37
+					},
+					"frame": {
+						"x": 2008,
+						"y": 311,
+						"w": 32,
+						"h": 37
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0018",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 14,
+						"w": 32,
+						"h": 37
+					},
+					"frame": {
+						"x": 2008,
+						"y": 311,
+						"w": 32,
+						"h": 37
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0019",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 14,
+						"w": 32,
+						"h": 37
+					},
+					"frame": {
+						"x": 2008,
+						"y": 311,
+						"w": 32,
+						"h": 37
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0020",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 14,
+						"w": 32,
+						"h": 37
+					},
+					"frame": {
+						"x": 2008,
+						"y": 311,
+						"w": 32,
+						"h": 37
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0021",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 14,
+						"w": 32,
+						"h": 37
+					},
+					"frame": {
+						"x": 2008,
+						"y": 311,
+						"w": 32,
+						"h": 37
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 25,
+						"w": 32,
+						"h": 20
+					},
+					"frame": {
+						"x": 2008,
+						"y": 350,
+						"w": 32,
+						"h": 20
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0007",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 25,
+						"w": 32,
+						"h": 20
+					},
+					"frame": {
+						"x": 2008,
+						"y": 350,
+						"w": 32,
+						"h": 20
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0008",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 25,
+						"w": 32,
+						"h": 20
+					},
+					"frame": {
+						"x": 2008,
+						"y": 350,
+						"w": 32,
+						"h": 20
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0009",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 25,
+						"w": 32,
+						"h": 20
+					},
+					"frame": {
+						"x": 2008,
+						"y": 350,
+						"w": 32,
+						"h": 20
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0010",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 25,
+						"w": 32,
+						"h": 20
+					},
+					"frame": {
+						"x": 2008,
+						"y": 350,
+						"w": 32,
+						"h": 20
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0011",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 25,
+						"w": 32,
+						"h": 20
+					},
+					"frame": {
+						"x": 2008,
+						"y": 350,
+						"w": 32,
+						"h": 20
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0012",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 25,
+						"w": 32,
+						"h": 20
+					},
+					"frame": {
+						"x": 2008,
+						"y": 350,
+						"w": 32,
+						"h": 20
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0033",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 94,
+						"y": 416,
+						"w": 31,
+						"h": 47
+					},
+					"frame": {
+						"x": 2008,
+						"y": 372,
+						"w": 31,
+						"h": 47
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0039",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 29,
+						"h": 62
+					},
+					"frame": {
+						"x": 2008,
+						"y": 421,
+						"w": 29,
+						"h": 62
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0013",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 31,
+						"w": 29,
+						"h": 57
+					},
+					"frame": {
+						"x": 2008,
+						"y": 485,
+						"w": 29,
+						"h": 57
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0014",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 31,
+						"w": 29,
+						"h": 57
+					},
+					"frame": {
+						"x": 2008,
+						"y": 485,
+						"w": 29,
+						"h": 57
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0015",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 31,
+						"w": 29,
+						"h": 57
+					},
+					"frame": {
+						"x": 2008,
+						"y": 485,
+						"w": 29,
+						"h": 57
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0016",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 31,
+						"w": 29,
+						"h": 57
+					},
+					"frame": {
+						"x": 2008,
+						"y": 485,
+						"w": 29,
+						"h": 57
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0017",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 31,
+						"w": 29,
+						"h": 57
+					},
+					"frame": {
+						"x": 2008,
+						"y": 485,
+						"w": 29,
+						"h": 57
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0018",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 31,
+						"w": 29,
+						"h": 57
+					},
+					"frame": {
+						"x": 2008,
+						"y": 485,
+						"w": 29,
+						"h": 57
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0019",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 31,
+						"w": 29,
+						"h": 57
+					},
+					"frame": {
+						"x": 2008,
+						"y": 485,
+						"w": 29,
+						"h": 57
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0020",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 31,
+						"w": 29,
+						"h": 57
+					},
+					"frame": {
+						"x": 2008,
+						"y": 485,
+						"w": 29,
+						"h": 57
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0021",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 31,
+						"w": 29,
+						"h": 57
+					},
+					"frame": {
+						"x": 2008,
+						"y": 485,
+						"w": 29,
+						"h": 57
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0022",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 31,
+						"w": 29,
+						"h": 57
+					},
+					"frame": {
+						"x": 2008,
+						"y": 485,
+						"w": 29,
+						"h": 57
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0023",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 31,
+						"w": 29,
+						"h": 57
+					},
+					"frame": {
+						"x": 2008,
+						"y": 485,
+						"w": 29,
+						"h": 57
+					}
+				},
+				{
+					"filename": "shack/trees1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 311,
+						"h": 462
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 311,
+						"h": 462
+					},
+					"frame": {
+						"x": 1534,
+						"y": 531,
+						"w": 311,
+						"h": 462
+					}
+				},
+				{
+					"filename": "shack/bucket/back_0009",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 95
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 1,
+						"w": 159,
+						"h": 72
+					},
+					"frame": {
+						"x": 1847,
+						"y": 531,
+						"w": 159,
+						"h": 72
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0022",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 47
+					},
+					"frame": {
+						"x": 2008,
+						"y": 544,
+						"w": 29,
+						"h": 47
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0023",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 47
+					},
+					"frame": {
+						"x": 2008,
+						"y": 544,
+						"w": 29,
+						"h": 47
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0024",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 47
+					},
+					"frame": {
+						"x": 2008,
+						"y": 544,
+						"w": 29,
+						"h": 47
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0025",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 47
+					},
+					"frame": {
+						"x": 2008,
+						"y": 544,
+						"w": 29,
+						"h": 47
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0026",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 47
+					},
+					"frame": {
+						"x": 2008,
+						"y": 544,
+						"w": 29,
+						"h": 47
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0027",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 47
+					},
+					"frame": {
+						"x": 2008,
+						"y": 544,
+						"w": 29,
+						"h": 47
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0028",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 47
+					},
+					"frame": {
+						"x": 2008,
+						"y": 544,
+						"w": 29,
+						"h": 47
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0029",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 47
+					},
+					"frame": {
+						"x": 2008,
+						"y": 544,
+						"w": 29,
+						"h": 47
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0030",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 29,
+						"h": 47
+					},
+					"frame": {
+						"x": 2008,
+						"y": 544,
+						"w": 29,
+						"h": 47
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 22,
+						"w": 28,
+						"h": 29
+					},
+					"frame": {
+						"x": 2008,
+						"y": 593,
+						"w": 28,
+						"h": 29
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0007",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 22,
+						"w": 28,
+						"h": 29
+					},
+					"frame": {
+						"x": 2008,
+						"y": 593,
+						"w": 28,
+						"h": 29
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0008",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 22,
+						"w": 28,
+						"h": 29
+					},
+					"frame": {
+						"x": 2008,
+						"y": 593,
+						"w": 28,
+						"h": 29
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0009",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 22,
+						"w": 28,
+						"h": 29
+					},
+					"frame": {
+						"x": 2008,
+						"y": 593,
+						"w": 28,
+						"h": 29
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0010",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 22,
+						"w": 28,
+						"h": 29
+					},
+					"frame": {
+						"x": 2008,
+						"y": 593,
+						"w": 28,
+						"h": 29
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0011",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 22,
+						"w": 28,
+						"h": 29
+					},
+					"frame": {
+						"x": 2008,
+						"y": 593,
+						"w": 28,
+						"h": 29
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0012",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 22,
+						"w": 28,
+						"h": 29
+					},
+					"frame": {
+						"x": 2008,
+						"y": 593,
+						"w": 28,
+						"h": 29
+					}
+				},
+				{
+					"filename": "shack/bucket/front_0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 168,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 158,
+						"h": 137
+					},
+					"frame": {
+						"x": 1847,
+						"y": 605,
+						"w": 158,
+						"h": 137
+					}
+				},
+				{
+					"filename": "shack/bucket/front_0010",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 168,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 0,
+						"w": 158,
+						"h": 137
+					},
+					"frame": {
+						"x": 1847,
+						"y": 605,
+						"w": 158,
+						"h": 137
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0009",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 38,
+						"y": 74,
+						"w": 188,
+						"h": 389
+					},
+					"frame": {
+						"x": 1847,
+						"y": 744,
+						"w": 188,
+						"h": 389
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0035",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 93,
+						"y": 444,
+						"w": 27,
+						"h": 17
+					},
+					"frame": {
+						"x": 2007,
+						"y": 624,
+						"w": 27,
+						"h": 17
+					}
+				},
+				{
+					"filename": "shack/spray/spray_0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 44,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 57,
+						"w": 11,
+						"h": 26
+					},
+					"frame": {
+						"x": 2036,
+						"y": 624,
+						"w": 11,
+						"h": 26
+					}
+				},
+				{
+					"filename": "shack/spray/spray_0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 44,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 57,
+						"w": 11,
+						"h": 26
+					},
+					"frame": {
+						"x": 2036,
+						"y": 624,
+						"w": 11,
+						"h": 26
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 129,
+						"w": 24,
+						"h": 40
+					},
+					"frame": {
+						"x": 2007,
+						"y": 643,
+						"w": 24,
+						"h": 40
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0007",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 129,
+						"w": 24,
+						"h": 40
+					},
+					"frame": {
+						"x": 2007,
+						"y": 643,
+						"w": 24,
+						"h": 40
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0008",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 129,
+						"w": 24,
+						"h": 40
+					},
+					"frame": {
+						"x": 2007,
+						"y": 643,
+						"w": 24,
+						"h": 40
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0009",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 129,
+						"w": 24,
+						"h": 40
+					},
+					"frame": {
+						"x": 2007,
+						"y": 643,
+						"w": 24,
+						"h": 40
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0010",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 129,
+						"w": 24,
+						"h": 40
+					},
+					"frame": {
+						"x": 2007,
+						"y": 643,
+						"w": 24,
+						"h": 40
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0011",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 129,
+						"w": 24,
+						"h": 40
+					},
+					"frame": {
+						"x": 2007,
+						"y": 643,
+						"w": 24,
+						"h": 40
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0012",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 129,
+						"w": 24,
+						"h": 40
+					},
+					"frame": {
+						"x": 2007,
+						"y": 643,
+						"w": 24,
+						"h": 40
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0036",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 14,
+						"h": 21
+					},
+					"frame": {
+						"x": 2033,
+						"y": 652,
+						"w": 14,
+						"h": 21
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midtop_0005",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 10
+					},
+					"frame": {
+						"x": 2033,
+						"y": 675,
+						"w": 14,
+						"h": 10
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midtop_0006",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 10
+					},
+					"frame": {
+						"x": 2033,
+						"y": 675,
+						"w": 14,
+						"h": 10
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0015",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 12,
+						"w": 23,
+						"h": 32
+					},
+					"frame": {
+						"x": 2007,
+						"y": 685,
+						"w": 23,
+						"h": 32
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0016",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 12,
+						"w": 23,
+						"h": 32
+					},
+					"frame": {
+						"x": 2007,
+						"y": 685,
+						"w": 23,
+						"h": 32
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0017",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 12,
+						"w": 23,
+						"h": 32
+					},
+					"frame": {
+						"x": 2007,
+						"y": 685,
+						"w": 23,
+						"h": 32
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0018",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 12,
+						"w": 23,
+						"h": 32
+					},
+					"frame": {
+						"x": 2007,
+						"y": 685,
+						"w": 23,
+						"h": 32
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0019",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 12,
+						"w": 23,
+						"h": 32
+					},
+					"frame": {
+						"x": 2007,
+						"y": 685,
+						"w": 23,
+						"h": 32
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0020",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 12,
+						"w": 23,
+						"h": 32
+					},
+					"frame": {
+						"x": 2007,
+						"y": 685,
+						"w": 23,
+						"h": 32
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0021",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 12,
+						"w": 23,
+						"h": 32
+					},
+					"frame": {
+						"x": 2007,
+						"y": 685,
+						"w": 23,
+						"h": 32
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midtop_0007",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 10
+					},
+					"frame": {
+						"x": 2032,
+						"y": 687,
+						"w": 14,
+						"h": 10
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midtop_0008",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 10
+					},
+					"frame": {
+						"x": 2032,
+						"y": 687,
+						"w": 14,
+						"h": 10
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midtop_0009",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 10
+					},
+					"frame": {
+						"x": 2032,
+						"y": 699,
+						"w": 14,
+						"h": 10
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midtop_0010",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 10
+					},
+					"frame": {
+						"x": 2032,
+						"y": 699,
+						"w": 14,
+						"h": 10
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midtop_0011",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 10
+					},
+					"frame": {
+						"x": 2032,
+						"y": 711,
+						"w": 14,
+						"h": 10
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midtop_0012",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 14,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 10
+					},
+					"frame": {
+						"x": 2032,
+						"y": 711,
+						"w": 14,
+						"h": 10
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0008",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 26,
+						"w": 18,
+						"h": 17
+					},
+					"frame": {
+						"x": 2007,
+						"y": 723,
+						"w": 18,
+						"h": 17
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0009",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 26,
+						"w": 18,
+						"h": 17
+					},
+					"frame": {
+						"x": 2007,
+						"y": 723,
+						"w": 18,
+						"h": 17
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0010",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 26,
+						"w": 18,
+						"h": 17
+					},
+					"frame": {
+						"x": 2007,
+						"y": 723,
+						"w": 18,
+						"h": 17
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0011",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 26,
+						"w": 18,
+						"h": 17
+					},
+					"frame": {
+						"x": 2007,
+						"y": 723,
+						"w": 18,
+						"h": 17
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0012",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 26,
+						"w": 18,
+						"h": 17
+					},
+					"frame": {
+						"x": 2007,
+						"y": 723,
+						"w": 18,
+						"h": 17
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0013",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 26,
+						"w": 18,
+						"h": 17
+					},
+					"frame": {
+						"x": 2007,
+						"y": 723,
+						"w": 18,
+						"h": 17
+					}
+				},
+				{
+					"filename": "shack/plants/1/1_0014",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 29,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 9,
+						"y": 26,
+						"w": 18,
+						"h": 17
+					},
+					"frame": {
+						"x": 2007,
+						"y": 723,
+						"w": 18,
+						"h": 17
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midbottom_0001",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 10
+					},
+					"frame": {
+						"x": 2027,
+						"y": 723,
+						"w": 19,
+						"h": 10
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midbottom_0002",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 10
+					},
+					"frame": {
+						"x": 2027,
+						"y": 723,
+						"w": 19,
+						"h": 10
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0036",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 97,
+						"y": 450,
+						"w": 13,
+						"h": 7
+					},
+					"frame": {
+						"x": 2027,
+						"y": 735,
+						"w": 13,
+						"h": 7
+					}
+				},
+				{
+					"filename": "shack/tree",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 706,
+						"h": 467
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 706,
+						"h": 467
+					},
+					"frame": {
+						"x": 1,
+						"y": 1135,
+						"w": 706,
+						"h": 467
+					}
+				},
+				{
+					"filename": "shack/flowPipe/1/1_0001",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 127,
+						"h": 163
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 127,
+						"h": 163
+					},
+					"frame": {
+						"x": 1,
+						"y": 970,
+						"w": 127,
+						"h": 163
+					}
+				},
+				{
+					"filename": "shack/flowPipe/top",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 89,
+						"h": 163
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 89,
+						"h": 163
+					},
+					"frame": {
+						"x": 130,
+						"y": 970,
+						"w": 89,
+						"h": 163
+					}
+				},
+				{
+					"filename": "shack/channels/constant/bottom_0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 102,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 138
+					},
+					"frame": {
+						"x": 221,
+						"y": 995,
+						"w": 102,
+						"h": 138
+					}
+				},
+				{
+					"filename": "shack/channels/constant/bottom_0004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 102,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 138
+					},
+					"frame": {
+						"x": 221,
+						"y": 995,
+						"w": 102,
+						"h": 138
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0013",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 33,
+						"w": 53,
+						"h": 138
+					},
+					"frame": {
+						"x": 325,
+						"y": 995,
+						"w": 53,
+						"h": 138
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0014",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 33,
+						"w": 53,
+						"h": 138
+					},
+					"frame": {
+						"x": 325,
+						"y": 995,
+						"w": 53,
+						"h": 138
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0015",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 33,
+						"w": 53,
+						"h": 138
+					},
+					"frame": {
+						"x": 325,
+						"y": 995,
+						"w": 53,
+						"h": 138
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0016",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 33,
+						"w": 53,
+						"h": 138
+					},
+					"frame": {
+						"x": 325,
+						"y": 995,
+						"w": 53,
+						"h": 138
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0017",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 33,
+						"w": 53,
+						"h": 138
+					},
+					"frame": {
+						"x": 325,
+						"y": 995,
+						"w": 53,
+						"h": 138
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0018",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 33,
+						"w": 53,
+						"h": 138
+					},
+					"frame": {
+						"x": 325,
+						"y": 995,
+						"w": 53,
+						"h": 138
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0019",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 33,
+						"w": 53,
+						"h": 138
+					},
+					"frame": {
+						"x": 325,
+						"y": 995,
+						"w": 53,
+						"h": 138
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0020",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 33,
+						"w": 53,
+						"h": 138
+					},
+					"frame": {
+						"x": 325,
+						"y": 995,
+						"w": 53,
+						"h": 138
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0021",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 33,
+						"w": 53,
+						"h": 138
+					},
+					"frame": {
+						"x": 325,
+						"y": 995,
+						"w": 53,
+						"h": 138
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0024",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 92,
+						"y": 301,
+						"w": 102,
+						"h": 162
+					},
+					"frame": {
+						"x": 380,
+						"y": 970,
+						"w": 102,
+						"h": 162
+					}
+				},
+				{
+					"filename": "shack/channels/constant/mid_0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 55,
+						"h": 165
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 54,
+						"h": 162
+					},
+					"frame": {
+						"x": 484,
+						"y": 970,
+						"w": 54,
+						"h": 162
+					}
+				},
+				{
+					"filename": "shack/channels/constant/mid_0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 55,
+						"h": 165
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 54,
+						"h": 162
+					},
+					"frame": {
+						"x": 484,
+						"y": 970,
+						"w": 54,
+						"h": 162
+					}
+				},
+				{
+					"filename": "shack/channels/constant/bottom_0005",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 102,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 101,
+						"h": 137
+					},
+					"frame": {
+						"x": 540,
+						"y": 995,
+						"w": 101,
+						"h": 137
+					}
+				},
+				{
+					"filename": "shack/channels/constant/bottom_0006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 102,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 101,
+						"h": 137
+					},
+					"frame": {
+						"x": 540,
+						"y": 995,
+						"w": 101,
+						"h": 137
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0008",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 51,
+						"w": 114,
+						"h": 135
+					},
+					"frame": {
+						"x": 643,
+						"y": 995,
+						"w": 114,
+						"h": 135
+					}
+				},
+				{
+					"filename": "shack/channels/back",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 283,
+						"h": 435
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 283,
+						"h": 435
+					},
+					"frame": {
+						"x": 1,
+						"y": 1604,
+						"w": 283,
+						"h": 435
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midbottom_0003",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 10
+					},
+					"frame": {
+						"x": 221,
+						"y": 970,
+						"w": 19,
+						"h": 10
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midbottom_0004",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 10
+					},
+					"frame": {
+						"x": 221,
+						"y": 970,
+						"w": 19,
+						"h": 10
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midbottom_0005",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 10
+					},
+					"frame": {
+						"x": 221,
+						"y": 982,
+						"w": 19,
+						"h": 10
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midbottom_0006",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 10
+					},
+					"frame": {
+						"x": 221,
+						"y": 982,
+						"w": 19,
+						"h": 10
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midbottom_0007",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 10
+					},
+					"frame": {
+						"x": 242,
+						"y": 970,
+						"w": 19,
+						"h": 10
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midbottom_0008",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 10
+					},
+					"frame": {
+						"x": 242,
+						"y": 970,
+						"w": 19,
+						"h": 10
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midbottom_0009",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 10
+					},
+					"frame": {
+						"x": 242,
+						"y": 982,
+						"w": 19,
+						"h": 10
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midbottom_0010",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 19,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 10
+					},
+					"frame": {
+						"x": 242,
+						"y": 982,
+						"w": 19,
+						"h": 10
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0077",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 430
+					},
+					"frame": {
+						"x": 286,
+						"y": 1604,
+						"w": 226,
+						"h": 430
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midbottom_0011",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 19,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 9
+					},
+					"frame": {
+						"x": 286,
+						"y": 2036,
+						"w": 19,
+						"h": 9
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midbottom_0012",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 19,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 19,
+						"h": 9
+					},
+					"frame": {
+						"x": 286,
+						"y": 2036,
+						"w": 19,
+						"h": 9
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midtop_0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 14,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 14,
+						"h": 9
+					},
+					"frame": {
+						"x": 307,
+						"y": 2036,
+						"w": 14,
+						"h": 9
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midtop_0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 14,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 14,
+						"h": 9
+					},
+					"frame": {
+						"x": 307,
+						"y": 2036,
+						"w": 14,
+						"h": 9
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midtop_0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 14,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 14,
+						"h": 9
+					},
+					"frame": {
+						"x": 323,
+						"y": 2036,
+						"w": 14,
+						"h": 9
+					}
+				},
+				{
+					"filename": "shack/channels/constant/midtop_0004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 14,
+						"h": 10
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 14,
+						"h": 9
+					},
+					"frame": {
+						"x": 323,
+						"y": 2036,
+						"w": 14,
+						"h": 9
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 33,
+						"w": 226,
+						"h": 430
+					},
+					"frame": {
+						"x": 514,
+						"y": 1604,
+						"w": 226,
+						"h": 430
+					}
+				},
+				{
+					"filename": "shack/channels/1/1_0001",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 300,
+						"h": 466
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 300,
+						"h": 466
+					},
+					"frame": {
+						"x": 709,
+						"y": 1135,
+						"w": 300,
+						"h": 466
+					}
+				},
+				{
+					"filename": "shack/channels/constant/mid_0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 55,
+						"h": 165
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 6,
+						"w": 55,
+						"h": 159
+					},
+					"frame": {
+						"x": 759,
+						"y": 970,
+						"w": 55,
+						"h": 159
+					}
+				},
+				{
+					"filename": "shack/channels/constant/mid_0004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 55,
+						"h": 165
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 6,
+						"w": 55,
+						"h": 159
+					},
+					"frame": {
+						"x": 759,
+						"y": 970,
+						"w": 55,
+						"h": 159
+					}
+				},
+				{
+					"filename": "shack/channels/constant/mid_0005",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 55,
+						"h": 165
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 6,
+						"w": 55,
+						"h": 159
+					},
+					"frame": {
+						"x": 816,
+						"y": 970,
+						"w": 55,
+						"h": 159
+					}
+				},
+				{
+					"filename": "shack/bucket/front_0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 168,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 161,
+						"h": 134
+					},
+					"frame": {
+						"x": 873,
+						"y": 995,
+						"w": 161,
+						"h": 134
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0007",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 44,
+						"w": 219,
+						"h": 419
+					},
+					"frame": {
+						"x": 742,
+						"y": 1603,
+						"w": 219,
+						"h": 419
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0008",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 53,
+						"w": 214,
+						"h": 410
+					},
+					"frame": {
+						"x": 963,
+						"y": 1603,
+						"w": 214,
+						"h": 410
+					}
+				},
+				{
+					"filename": "shack/channels/front",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 249,
+						"h": 466
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 249,
+						"h": 466
+					},
+					"frame": {
+						"x": 1011,
+						"y": 1135,
+						"w": 249,
+						"h": 466
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0024",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 125,
+						"w": 71,
+						"h": 31
+					},
+					"frame": {
+						"x": 963,
+						"y": 2015,
+						"w": 71,
+						"h": 31
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0037",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 31
+					},
+					"frame": {
+						"x": 1036,
+						"y": 2015,
+						"w": 17,
+						"h": 31
+					}
+				},
+				{
+					"filename": "shack/bucket/front_0009",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 168,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 3,
+						"w": 160,
+						"h": 134
+					},
+					"frame": {
+						"x": 1036,
+						"y": 995,
+						"w": 160,
+						"h": 134
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0022",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 87,
+						"w": 226,
+						"h": 133
+					},
+					"frame": {
+						"x": 1198,
+						"y": 995,
+						"w": 226,
+						"h": 133
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0022",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 92,
+						"y": 282,
+						"w": 103,
+						"h": 181
+					},
+					"frame": {
+						"x": 1426,
+						"y": 970,
+						"w": 103,
+						"h": 181
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0012",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 64,
+						"y": 114,
+						"w": 162,
+						"h": 349
+					},
+					"frame": {
+						"x": 1262,
+						"y": 1130,
+						"w": 162,
+						"h": 349
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 60,
+						"w": 20,
+						"h": 27
+					},
+					"frame": {
+						"x": 1055,
+						"y": 2015,
+						"w": 20,
+						"h": 27
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0007",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 60,
+						"w": 20,
+						"h": 27
+					},
+					"frame": {
+						"x": 1055,
+						"y": 2015,
+						"w": 20,
+						"h": 27
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0008",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 60,
+						"w": 20,
+						"h": 27
+					},
+					"frame": {
+						"x": 1055,
+						"y": 2015,
+						"w": 20,
+						"h": 27
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0009",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 60,
+						"w": 20,
+						"h": 27
+					},
+					"frame": {
+						"x": 1055,
+						"y": 2015,
+						"w": 20,
+						"h": 27
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0010",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 60,
+						"w": 20,
+						"h": 27
+					},
+					"frame": {
+						"x": 1055,
+						"y": 2015,
+						"w": 20,
+						"h": 27
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0011",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 60,
+						"w": 20,
+						"h": 27
+					},
+					"frame": {
+						"x": 1055,
+						"y": 2015,
+						"w": 20,
+						"h": 27
+					}
+				},
+				{
+					"filename": "shack/plants/5/5_0012",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 39,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 60,
+						"w": 20,
+						"h": 27
+					},
+					"frame": {
+						"x": 1055,
+						"y": 2015,
+						"w": 20,
+						"h": 27
+					}
+				},
+				{
+					"filename": "shack/house1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 284,
+						"h": 291
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 284,
+						"h": 291
+					},
+					"frame": {
+						"x": 1531,
+						"y": 995,
+						"w": 284,
+						"h": 291
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0023",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 92,
+						"y": 290,
+						"w": 102,
+						"h": 173
+					},
+					"frame": {
+						"x": 1426,
+						"y": 1153,
+						"w": 102,
+						"h": 173
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0079",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 463
+					},
+					"frame": {
+						"x": 1817,
+						"y": 1135,
+						"w": 226,
+						"h": 463
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0078",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 446
+					},
+					"frame": {
+						"x": 1262,
+						"y": 1600,
+						"w": 226,
+						"h": 446
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0007",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 67,
+						"w": 114,
+						"h": 117
+					},
+					"frame": {
+						"x": 1262,
+						"y": 1481,
+						"w": 114,
+						"h": 117
+					}
+				},
+				{
+					"filename": "shack/barrel",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 80,
+						"h": 86
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 80,
+						"h": 86
+					},
+					"frame": {
+						"x": 1179,
+						"y": 1603,
+						"w": 80,
+						"h": 86
+					}
+				},
+				{
+					"filename": "shack/spray/base10001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 650,
+						"h": 788
+					},
+					"spriteSourceSize": {
+						"x": 385,
+						"y": 673,
+						"w": 265,
+						"h": 115
+					},
+					"frame": {
+						"x": 1378,
+						"y": 1481,
+						"w": 265,
+						"h": 115
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 14,
+						"w": 226,
+						"h": 449
+					},
+					"frame": {
+						"x": 1490,
+						"y": 1598,
+						"w": 226,
+						"h": 449
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0011",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 71,
+						"h": 151
+					},
+					"frame": {
+						"x": 1426,
+						"y": 1328,
+						"w": 71,
+						"h": 151
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0044",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 94,
+						"h": 150
+					},
+					"frame": {
+						"x": 1499,
+						"y": 1328,
+						"w": 94,
+						"h": 150
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0013",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 19,
+						"w": 55,
+						"h": 37
+					},
+					"frame": {
+						"x": 1530,
+						"y": 1288,
+						"w": 55,
+						"h": 37
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0014",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 19,
+						"w": 55,
+						"h": 37
+					},
+					"frame": {
+						"x": 1530,
+						"y": 1288,
+						"w": 55,
+						"h": 37
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0015",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 19,
+						"w": 55,
+						"h": 37
+					},
+					"frame": {
+						"x": 1530,
+						"y": 1288,
+						"w": 55,
+						"h": 37
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0016",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 19,
+						"w": 55,
+						"h": 37
+					},
+					"frame": {
+						"x": 1530,
+						"y": 1288,
+						"w": 55,
+						"h": 37
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0017",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 19,
+						"w": 55,
+						"h": 37
+					},
+					"frame": {
+						"x": 1530,
+						"y": 1288,
+						"w": 55,
+						"h": 37
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0018",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 19,
+						"w": 55,
+						"h": 37
+					},
+					"frame": {
+						"x": 1530,
+						"y": 1288,
+						"w": 55,
+						"h": 37
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0019",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 19,
+						"w": 55,
+						"h": 37
+					},
+					"frame": {
+						"x": 1530,
+						"y": 1288,
+						"w": 55,
+						"h": 37
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0020",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 19,
+						"w": 55,
+						"h": 37
+					},
+					"frame": {
+						"x": 1530,
+						"y": 1288,
+						"w": 55,
+						"h": 37
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0021",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 19,
+						"w": 55,
+						"h": 37
+					},
+					"frame": {
+						"x": 1530,
+						"y": 1288,
+						"w": 55,
+						"h": 37
+					}
+				},
+				{
+					"filename": "shack/bucket/front_0006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 168,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 10,
+						"w": 168,
+						"h": 126
+					},
+					"frame": {
+						"x": 1645,
+						"y": 1288,
+						"w": 168,
+						"h": 126
+					}
+				},
+				{
+					"filename": "shack/bucket/front_0005",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 168,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 12,
+						"w": 168,
+						"h": 123
+					},
+					"frame": {
+						"x": 1645,
+						"y": 1416,
+						"w": 168,
+						"h": 123
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 94,
+						"w": 62,
+						"h": 54
+					},
+					"frame": {
+						"x": 1645,
+						"y": 1541,
+						"w": 62,
+						"h": 54
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0022",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 53
+					},
+					"frame": {
+						"x": 1709,
+						"y": 1541,
+						"w": 71,
+						"h": 53
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0023",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 53
+					},
+					"frame": {
+						"x": 1709,
+						"y": 1541,
+						"w": 71,
+						"h": 53
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0024",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 53
+					},
+					"frame": {
+						"x": 1709,
+						"y": 1541,
+						"w": 71,
+						"h": 53
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0025",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 53
+					},
+					"frame": {
+						"x": 1709,
+						"y": 1541,
+						"w": 71,
+						"h": 53
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0026",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 53
+					},
+					"frame": {
+						"x": 1709,
+						"y": 1541,
+						"w": 71,
+						"h": 53
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0027",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 53
+					},
+					"frame": {
+						"x": 1709,
+						"y": 1541,
+						"w": 71,
+						"h": 53
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0028",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 53
+					},
+					"frame": {
+						"x": 1709,
+						"y": 1541,
+						"w": 71,
+						"h": 53
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0029",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 53
+					},
+					"frame": {
+						"x": 1709,
+						"y": 1541,
+						"w": 71,
+						"h": 53
+					}
+				},
+				{
+					"filename": "shack/plants/3/3_0030",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 75,
+						"h": 56
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 53
+					},
+					"frame": {
+						"x": 1709,
+						"y": 1541,
+						"w": 71,
+						"h": 53
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0031",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 94,
+						"y": 391,
+						"w": 45,
+						"h": 70
+					},
+					"frame": {
+						"x": 1595,
+						"y": 1288,
+						"w": 45,
+						"h": 70
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0022",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 170
+					},
+					"frame": {
+						"x": 1179,
+						"y": 1691,
+						"w": 78,
+						"h": 170
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0023",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 170
+					},
+					"frame": {
+						"x": 1179,
+						"y": 1691,
+						"w": 78,
+						"h": 170
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0024",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 170
+					},
+					"frame": {
+						"x": 1179,
+						"y": 1691,
+						"w": 78,
+						"h": 170
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0025",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 170
+					},
+					"frame": {
+						"x": 1179,
+						"y": 1691,
+						"w": 78,
+						"h": 170
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0026",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 170
+					},
+					"frame": {
+						"x": 1179,
+						"y": 1691,
+						"w": 78,
+						"h": 170
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0027",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 170
+					},
+					"frame": {
+						"x": 1179,
+						"y": 1691,
+						"w": 78,
+						"h": 170
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0028",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 170
+					},
+					"frame": {
+						"x": 1179,
+						"y": 1691,
+						"w": 78,
+						"h": 170
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0029",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 170
+					},
+					"frame": {
+						"x": 1179,
+						"y": 1691,
+						"w": 78,
+						"h": 170
+					}
+				},
+				{
+					"filename": "shack/plants/4/4_0030",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 78,
+						"h": 171
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 78,
+						"h": 170
+					},
+					"frame": {
+						"x": 1179,
+						"y": 1691,
+						"w": 78,
+						"h": 170
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0043",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 94,
+						"h": 140
+					},
+					"frame": {
+						"x": 1718,
+						"y": 1596,
+						"w": 94,
+						"h": 140
+					}
+				},
+				{
+					"filename": "shack/spray/spray_0013",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 84
+					},
+					"frame": {
+						"x": 1595,
+						"y": 1360,
+						"w": 44,
+						"h": 84
+					}
+				},
+				{
+					"filename": "shack/spray/spray_0014",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 44,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 84
+					},
+					"frame": {
+						"x": 1595,
+						"y": 1360,
+						"w": 44,
+						"h": 84
+					}
+				},
+				{
+					"filename": "shack/flowPipe/tube",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 75,
+						"h": 127
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 75,
+						"h": 127
+					},
+					"frame": {
+						"x": 1179,
+						"y": 1863,
+						"w": 75,
+						"h": 127
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0022",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 58,
+						"h": 51
+					},
+					"frame": {
+						"x": 1179,
+						"y": 1992,
+						"w": 58,
+						"h": 51
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0023",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 58,
+						"h": 51
+					},
+					"frame": {
+						"x": 1179,
+						"y": 1992,
+						"w": 58,
+						"h": 51
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0024",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 58,
+						"h": 51
+					},
+					"frame": {
+						"x": 1179,
+						"y": 1992,
+						"w": 58,
+						"h": 51
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0025",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 58,
+						"h": 51
+					},
+					"frame": {
+						"x": 1179,
+						"y": 1992,
+						"w": 58,
+						"h": 51
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0026",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 58,
+						"h": 51
+					},
+					"frame": {
+						"x": 1179,
+						"y": 1992,
+						"w": 58,
+						"h": 51
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0027",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 58,
+						"h": 51
+					},
+					"frame": {
+						"x": 1179,
+						"y": 1992,
+						"w": 58,
+						"h": 51
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0028",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 58,
+						"h": 51
+					},
+					"frame": {
+						"x": 1179,
+						"y": 1992,
+						"w": 58,
+						"h": 51
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0029",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 58,
+						"h": 51
+					},
+					"frame": {
+						"x": 1179,
+						"y": 1992,
+						"w": 58,
+						"h": 51
+					}
+				},
+				{
+					"filename": "shack/plants/2/2_0030",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 58,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 58,
+						"h": 51
+					},
+					"frame": {
+						"x": 1179,
+						"y": 1992,
+						"w": 58,
+						"h": 51
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0038",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 21,
+						"h": 45
+					},
+					"frame": {
+						"x": 1239,
+						"y": 1992,
+						"w": 21,
+						"h": 45
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0076",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 407
+					},
+					"frame": {
+						"x": 1814,
+						"y": 1600,
+						"w": 226,
+						"h": 407
+					}
+				},
+				{
+					"filename": "shack/shack_sign0001",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 94,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 94,
+						"h": 46
+					},
+					"frame": {
+						"x": 1718,
+						"y": 1738,
+						"w": 94,
+						"h": 46
+					}
+				},
+				{
+					"filename": "shack/shack_sign0003",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 94,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 94,
+						"h": 46
+					},
+					"frame": {
+						"x": 1718,
+						"y": 1738,
+						"w": 94,
+						"h": 46
+					}
+				},
+				{
+					"filename": "shack/shack_sign0002",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 94,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 94,
+						"h": 46
+					},
+					"frame": {
+						"x": 1718,
+						"y": 1786,
+						"w": 94,
+						"h": 46
+					}
+				},
+				{
+					"filename": "shack/shack_sign0004",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 94,
+						"h": 46
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 94,
+						"h": 46
+					},
+					"frame": {
+						"x": 1718,
+						"y": 1786,
+						"w": 94,
+						"h": 46
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0026",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 94,
+						"y": 335,
+						"w": 91,
+						"h": 128
+					},
+					"frame": {
+						"x": 1718,
+						"y": 1834,
+						"w": 91,
+						"h": 128
+					}
+				},
+				{
+					"filename": "shack/bag",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 71,
+						"h": 83
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 83
+					},
+					"frame": {
+						"x": 1718,
+						"y": 1964,
+						"w": 71,
+						"h": 83
+					}
+				}
+			]
+		},
+		{
+			"image": "/img/mineExterieur/2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2047,
+				"h": 2030
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "shack/channels/2/2_0080",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 463
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 226,
+						"h": 463
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0081",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 463
+					},
+					"frame": {
+						"x": 1,
+						"y": 466,
+						"w": 226,
+						"h": 463
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0082",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 463
+					},
+					"frame": {
+						"x": 229,
+						"y": 1,
+						"w": 226,
+						"h": 463
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 463
+					},
+					"frame": {
+						"x": 1,
+						"y": 931,
+						"w": 226,
+						"h": 463
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 226,
+						"h": 456
+					},
+					"frame": {
+						"x": 229,
+						"y": 466,
+						"w": 226,
+						"h": 456
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 226,
+						"h": 456
+					},
+					"frame": {
+						"x": 457,
+						"y": 1,
+						"w": 226,
+						"h": 456
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0005",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 14,
+						"w": 226,
+						"h": 449
+					},
+					"frame": {
+						"x": 1,
+						"y": 1396,
+						"w": 226,
+						"h": 449
+					}
+				},
+				{
+					"filename": "shack/recycle/building",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 251,
+						"h": 395
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 251,
+						"h": 395
+					},
+					"frame": {
+						"x": 685,
+						"y": 1,
+						"w": 251,
+						"h": 395
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0074",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 381
+					},
+					"frame": {
+						"x": 229,
+						"y": 924,
+						"w": 226,
+						"h": 381
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0075",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 381
+					},
+					"frame": {
+						"x": 457,
+						"y": 459,
+						"w": 226,
+						"h": 381
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0072",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 362
+					},
+					"frame": {
+						"x": 685,
+						"y": 398,
+						"w": 226,
+						"h": 362
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0073",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 362
+					},
+					"frame": {
+						"x": 938,
+						"y": 1,
+						"w": 226,
+						"h": 362
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0070",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 350
+					},
+					"frame": {
+						"x": 229,
+						"y": 1307,
+						"w": 226,
+						"h": 350
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0071",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 350
+					},
+					"frame": {
+						"x": 457,
+						"y": 842,
+						"w": 226,
+						"h": 350
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0069",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 340
+					},
+					"frame": {
+						"x": 685,
+						"y": 762,
+						"w": 226,
+						"h": 340
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0010",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 40,
+						"y": 87,
+						"w": 186,
+						"h": 376
+					},
+					"frame": {
+						"x": 457,
+						"y": 1194,
+						"w": 186,
+						"h": 376
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0068",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 333
+					},
+					"frame": {
+						"x": 1166,
+						"y": 1,
+						"w": 226,
+						"h": 333
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0067",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 321
+					},
+					"frame": {
+						"x": 1394,
+						"y": 1,
+						"w": 226,
+						"h": 321
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0066",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 293
+					},
+					"frame": {
+						"x": 1622,
+						"y": 1,
+						"w": 226,
+						"h": 293
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0011",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 99,
+						"w": 177,
+						"h": 364
+					},
+					"frame": {
+						"x": 1850,
+						"y": 1,
+						"w": 177,
+						"h": 364
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0063",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 237
+					},
+					"frame": {
+						"x": 229,
+						"y": 1659,
+						"w": 226,
+						"h": 237
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0013",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 75,
+						"y": 128,
+						"w": 151,
+						"h": 335
+					},
+					"frame": {
+						"x": 457,
+						"y": 1572,
+						"w": 151,
+						"h": 335
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0018",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 56,
+						"w": 226,
+						"h": 178
+					},
+					"frame": {
+						"x": 1,
+						"y": 1847,
+						"w": 226,
+						"h": 178
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0016",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 91,
+						"w": 226,
+						"h": 131
+					},
+					"frame": {
+						"x": 229,
+						"y": 1898,
+						"w": 226,
+						"h": 131
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0010",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 74,
+						"w": 114,
+						"h": 120
+					},
+					"frame": {
+						"x": 457,
+						"y": 1909,
+						"w": 114,
+						"h": 120
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0061",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 217
+					},
+					"frame": {
+						"x": 1622,
+						"y": 296,
+						"w": 226,
+						"h": 217
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0065",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 277
+					},
+					"frame": {
+						"x": 1394,
+						"y": 324,
+						"w": 226,
+						"h": 277
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0064",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 256
+					},
+					"frame": {
+						"x": 1166,
+						"y": 336,
+						"w": 226,
+						"h": 256
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0062",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 226,
+						"h": 223
+					},
+					"frame": {
+						"x": 938,
+						"y": 365,
+						"w": 226,
+						"h": 223
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0028",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 208,
+						"h": 236
+					},
+					"frame": {
+						"x": 913,
+						"y": 590,
+						"w": 208,
+						"h": 236
+					}
+				},
+				{
+					"filename": "shack/statue",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 201,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 201,
+						"h": 243
+					},
+					"frame": {
+						"x": 913,
+						"y": 828,
+						"w": 201,
+						"h": 243
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0029",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 208,
+						"h": 233
+					},
+					"frame": {
+						"x": 1123,
+						"y": 594,
+						"w": 208,
+						"h": 233
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0030",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 5,
+						"w": 208,
+						"h": 226
+					},
+					"frame": {
+						"x": 1116,
+						"y": 829,
+						"w": 208,
+						"h": 226
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0031",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 8,
+						"w": 208,
+						"h": 220
+					},
+					"frame": {
+						"x": 1333,
+						"y": 603,
+						"w": 208,
+						"h": 220
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0032",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 8,
+						"w": 208,
+						"h": 220
+					},
+					"frame": {
+						"x": 1333,
+						"y": 603,
+						"w": 208,
+						"h": 220
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0033",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 8,
+						"w": 208,
+						"h": 220
+					},
+					"frame": {
+						"x": 1333,
+						"y": 603,
+						"w": 208,
+						"h": 220
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0034",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 8,
+						"w": 208,
+						"h": 220
+					},
+					"frame": {
+						"x": 1333,
+						"y": 603,
+						"w": 208,
+						"h": 220
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0035",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 8,
+						"w": 208,
+						"h": 220
+					},
+					"frame": {
+						"x": 1333,
+						"y": 603,
+						"w": 208,
+						"h": 220
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0036",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 8,
+						"w": 208,
+						"h": 220
+					},
+					"frame": {
+						"x": 1333,
+						"y": 603,
+						"w": 208,
+						"h": 220
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0037",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 8,
+						"w": 208,
+						"h": 220
+					},
+					"frame": {
+						"x": 1333,
+						"y": 603,
+						"w": 208,
+						"h": 220
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0014",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 92,
+						"y": 182,
+						"w": 134,
+						"h": 281
+					},
+					"frame": {
+						"x": 645,
+						"y": 1194,
+						"w": 134,
+						"h": 281
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0015",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 92,
+						"y": 188,
+						"w": 134,
+						"h": 275
+					},
+					"frame": {
+						"x": 781,
+						"y": 1104,
+						"w": 134,
+						"h": 275
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0027",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 16,
+						"w": 208,
+						"h": 210
+					},
+					"frame": {
+						"x": 917,
+						"y": 1073,
+						"w": 208,
+						"h": 210
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0060",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 225,
+						"h": 199
+					},
+					"frame": {
+						"x": 1127,
+						"y": 1057,
+						"w": 225,
+						"h": 199
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0023",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 93,
+						"w": 226,
+						"h": 121
+					},
+					"frame": {
+						"x": 1622,
+						"y": 515,
+						"w": 226,
+						"h": 121
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0016",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 92,
+						"y": 201,
+						"w": 128,
+						"h": 262
+					},
+					"frame": {
+						"x": 1850,
+						"y": 367,
+						"w": 128,
+						"h": 262
+					}
+				},
+				{
+					"filename": "shack/fence1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 249,
+						"h": 170
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 249,
+						"h": 170
+					},
+					"frame": {
+						"x": 1543,
+						"y": 638,
+						"w": 249,
+						"h": 170
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0026",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 32,
+						"w": 208,
+						"h": 183
+					},
+					"frame": {
+						"x": 917,
+						"y": 1285,
+						"w": 208,
+						"h": 183
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0059",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 225,
+						"h": 187
+					},
+					"frame": {
+						"x": 1127,
+						"y": 1258,
+						"w": 225,
+						"h": 187
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0017",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 92,
+						"y": 205,
+						"w": 126,
+						"h": 258
+					},
+					"frame": {
+						"x": 610,
+						"y": 1572,
+						"w": 126,
+						"h": 258
+					}
+				},
+				{
+					"filename": "shack/flowPipe/2/2_0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 24,
+						"h": 249
+					},
+					"frame": {
+						"x": 1980,
+						"y": 367,
+						"w": 24,
+						"h": 249
+					}
+				},
+				{
+					"filename": "shack/flowPipe/2/2_0006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 24,
+						"h": 249
+					},
+					"frame": {
+						"x": 1980,
+						"y": 367,
+						"w": 24,
+						"h": 249
+					}
+				},
+				{
+					"filename": "shack/flowPipe/3/3_0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 24,
+						"h": 249
+					},
+					"frame": {
+						"x": 1980,
+						"y": 367,
+						"w": 24,
+						"h": 249
+					}
+				},
+				{
+					"filename": "shack/flowPipe/3/3_0006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 24,
+						"h": 249
+					},
+					"frame": {
+						"x": 1980,
+						"y": 367,
+						"w": 24,
+						"h": 249
+					}
+				},
+				{
+					"filename": "shack/flowPipe/4/4_0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 24,
+						"h": 249
+					},
+					"frame": {
+						"x": 1980,
+						"y": 367,
+						"w": 24,
+						"h": 249
+					}
+				},
+				{
+					"filename": "shack/flowPipe/4/4_0006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 24,
+						"h": 249
+					},
+					"frame": {
+						"x": 1980,
+						"y": 367,
+						"w": 24,
+						"h": 249
+					}
+				},
+				{
+					"filename": "shack/flowPipe/5/5_0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 24,
+						"h": 249
+					},
+					"frame": {
+						"x": 1980,
+						"y": 367,
+						"w": 24,
+						"h": 249
+					}
+				},
+				{
+					"filename": "shack/flowPipe/5/5_0006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 24,
+						"h": 249
+					},
+					"frame": {
+						"x": 1980,
+						"y": 367,
+						"w": 24,
+						"h": 249
+					}
+				},
+				{
+					"filename": "shack/flowPipe/2/2_0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 24,
+						"h": 249
+					},
+					"frame": {
+						"x": 2006,
+						"y": 367,
+						"w": 24,
+						"h": 249
+					}
+				},
+				{
+					"filename": "shack/flowPipe/2/2_0005",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 24,
+						"h": 249
+					},
+					"frame": {
+						"x": 2006,
+						"y": 367,
+						"w": 24,
+						"h": 249
+					}
+				},
+				{
+					"filename": "shack/flowPipe/3/3_0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 24,
+						"h": 249
+					},
+					"frame": {
+						"x": 2006,
+						"y": 367,
+						"w": 24,
+						"h": 249
+					}
+				},
+				{
+					"filename": "shack/flowPipe/3/3_0005",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 24,
+						"h": 249
+					},
+					"frame": {
+						"x": 2006,
+						"y": 367,
+						"w": 24,
+						"h": 249
+					}
+				},
+				{
+					"filename": "shack/flowPipe/4/4_0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 24,
+						"h": 249
+					},
+					"frame": {
+						"x": 2006,
+						"y": 367,
+						"w": 24,
+						"h": 249
+					}
+				},
+				{
+					"filename": "shack/flowPipe/4/4_0005",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 24,
+						"h": 249
+					},
+					"frame": {
+						"x": 2006,
+						"y": 367,
+						"w": 24,
+						"h": 249
+					}
+				},
+				{
+					"filename": "shack/flowPipe/5/5_0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 24,
+						"h": 249
+					},
+					"frame": {
+						"x": 2006,
+						"y": 367,
+						"w": 24,
+						"h": 249
+					}
+				},
+				{
+					"filename": "shack/flowPipe/5/5_0005",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 24,
+						"h": 249
+					},
+					"frame": {
+						"x": 2006,
+						"y": 367,
+						"w": 24,
+						"h": 249
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0019",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 65,
+						"w": 226,
+						"h": 166
+					},
+					"frame": {
+						"x": 1127,
+						"y": 1447,
+						"w": 226,
+						"h": 166
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0020",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 73,
+						"w": 226,
+						"h": 156
+					},
+					"frame": {
+						"x": 1543,
+						"y": 810,
+						"w": 226,
+						"h": 156
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0025",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 48,
+						"w": 208,
+						"h": 155
+					},
+					"frame": {
+						"x": 1333,
+						"y": 825,
+						"w": 208,
+						"h": 155
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0018",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 92,
+						"y": 213,
+						"w": 120,
+						"h": 250
+					},
+					"frame": {
+						"x": 1354,
+						"y": 982,
+						"w": 120,
+						"h": 250
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0021",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 92,
+						"y": 265,
+						"w": 109,
+						"h": 198
+					},
+					"frame": {
+						"x": 1354,
+						"y": 1234,
+						"w": 109,
+						"h": 198
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0019",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 92,
+						"y": 234,
+						"w": 114,
+						"h": 229
+					},
+					"frame": {
+						"x": 1476,
+						"y": 982,
+						"w": 114,
+						"h": 229
+					}
+				},
+				{
+					"filename": "shack/house2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 201,
+						"h": 170
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 201,
+						"h": 170
+					},
+					"frame": {
+						"x": 1592,
+						"y": 968,
+						"w": 201,
+						"h": 170
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0020",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 92,
+						"y": 248,
+						"w": 113,
+						"h": 215
+					},
+					"frame": {
+						"x": 1355,
+						"y": 1434,
+						"w": 113,
+						"h": 215
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0017",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 74,
+						"w": 226,
+						"h": 154
+					},
+					"frame": {
+						"x": 1592,
+						"y": 1140,
+						"w": 226,
+						"h": 154
+					}
+				},
+				{
+					"filename": "shack/bucket/back_0005",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 95
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 5,
+						"w": 167,
+						"h": 90
+					},
+					"frame": {
+						"x": 645,
+						"y": 1477,
+						"w": 167,
+						"h": 90
+					}
+				},
+				{
+					"filename": "shack/flowPipe/2/2_0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 11,
+						"w": 24,
+						"h": 248
+					},
+					"frame": {
+						"x": 738,
+						"y": 1569,
+						"w": 24,
+						"h": 248
+					}
+				},
+				{
+					"filename": "shack/flowPipe/2/2_0004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 248
+					},
+					"frame": {
+						"x": 738,
+						"y": 1569,
+						"w": 24,
+						"h": 248
+					}
+				},
+				{
+					"filename": "shack/flowPipe/2/2_0007",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 11,
+						"w": 24,
+						"h": 248
+					},
+					"frame": {
+						"x": 738,
+						"y": 1569,
+						"w": 24,
+						"h": 248
+					}
+				},
+				{
+					"filename": "shack/flowPipe/3/3_0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 11,
+						"w": 24,
+						"h": 248
+					},
+					"frame": {
+						"x": 738,
+						"y": 1569,
+						"w": 24,
+						"h": 248
+					}
+				},
+				{
+					"filename": "shack/flowPipe/3/3_0004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 248
+					},
+					"frame": {
+						"x": 738,
+						"y": 1569,
+						"w": 24,
+						"h": 248
+					}
+				},
+				{
+					"filename": "shack/flowPipe/3/3_0007",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 11,
+						"w": 24,
+						"h": 248
+					},
+					"frame": {
+						"x": 738,
+						"y": 1569,
+						"w": 24,
+						"h": 248
+					}
+				},
+				{
+					"filename": "shack/flowPipe/4/4_0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 11,
+						"w": 24,
+						"h": 248
+					},
+					"frame": {
+						"x": 738,
+						"y": 1569,
+						"w": 24,
+						"h": 248
+					}
+				},
+				{
+					"filename": "shack/flowPipe/4/4_0004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 248
+					},
+					"frame": {
+						"x": 738,
+						"y": 1569,
+						"w": 24,
+						"h": 248
+					}
+				},
+				{
+					"filename": "shack/flowPipe/4/4_0007",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 11,
+						"w": 24,
+						"h": 248
+					},
+					"frame": {
+						"x": 738,
+						"y": 1569,
+						"w": 24,
+						"h": 248
+					}
+				},
+				{
+					"filename": "shack/flowPipe/5/5_0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 11,
+						"w": 24,
+						"h": 248
+					},
+					"frame": {
+						"x": 738,
+						"y": 1569,
+						"w": 24,
+						"h": 248
+					}
+				},
+				{
+					"filename": "shack/flowPipe/5/5_0004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 248
+					},
+					"frame": {
+						"x": 738,
+						"y": 1569,
+						"w": 24,
+						"h": 248
+					}
+				},
+				{
+					"filename": "shack/flowPipe/5/5_0007",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 24,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 11,
+						"w": 24,
+						"h": 248
+					},
+					"frame": {
+						"x": 738,
+						"y": 1569,
+						"w": 24,
+						"h": 248
+					}
+				},
+				{
+					"filename": "shack/flowPipe/6/6_0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 25,
+						"w": 24,
+						"h": 248
+					},
+					"frame": {
+						"x": 764,
+						"y": 1569,
+						"w": 24,
+						"h": 248
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0049",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 101,
+						"h": 152
+					},
+					"frame": {
+						"x": 814,
+						"y": 1381,
+						"w": 101,
+						"h": 152
+					}
+				},
+				{
+					"filename": "shack/spray/base20001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 945,
+						"h": 804
+					},
+					"spriteSourceSize": {
+						"x": 761,
+						"y": 734,
+						"w": 184,
+						"h": 70
+					},
+					"frame": {
+						"x": 917,
+						"y": 1470,
+						"w": 184,
+						"h": 70
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0011",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 85,
+						"w": 114,
+						"h": 113
+					},
+					"frame": {
+						"x": 1476,
+						"y": 1213,
+						"w": 114,
+						"h": 113
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0021",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 81,
+						"w": 226,
+						"h": 145
+					},
+					"frame": {
+						"x": 1592,
+						"y": 1296,
+						"w": 226,
+						"h": 145
+					}
+				},
+				{
+					"filename": "shack/cart2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 122,
+						"h": 104
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 122,
+						"h": 104
+					},
+					"frame": {
+						"x": 1465,
+						"y": 1328,
+						"w": 122,
+						"h": 104
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0045",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 154
+					},
+					"frame": {
+						"x": 1470,
+						"y": 1434,
+						"w": 102,
+						"h": 154
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0024",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 99,
+						"w": 226,
+						"h": 109
+					},
+					"frame": {
+						"x": 1574,
+						"y": 1443,
+						"w": 226,
+						"h": 109
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0015",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 108,
+						"w": 226,
+						"h": 108
+					},
+					"frame": {
+						"x": 1574,
+						"y": 1554,
+						"w": 226,
+						"h": 108
+					}
+				},
+				{
+					"filename": "shack/channels/constant/bottom_0001",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 102,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 139
+					},
+					"frame": {
+						"x": 1470,
+						"y": 1590,
+						"w": 102,
+						"h": 139
+					}
+				},
+				{
+					"filename": "shack/channels/constant/bottom_0002",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 102,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 139
+					},
+					"frame": {
+						"x": 1470,
+						"y": 1590,
+						"w": 102,
+						"h": 139
+					}
+				},
+				{
+					"filename": "shack/bucket/front_0004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 168,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 9,
+						"w": 167,
+						"h": 127
+					},
+					"frame": {
+						"x": 1574,
+						"y": 1664,
+						"w": 167,
+						"h": 127
+					}
+				},
+				{
+					"filename": "shack/flowPipe/6/6_0004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 157
+					},
+					"frame": {
+						"x": 1794,
+						"y": 638,
+						"w": 72,
+						"h": 157
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0046",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 154
+					},
+					"frame": {
+						"x": 1868,
+						"y": 631,
+						"w": 102,
+						"h": 154
+					}
+				},
+				{
+					"filename": "shack/bucket/back_0006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 95
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 167,
+						"h": 86
+					},
+					"frame": {
+						"x": 610,
+						"y": 1832,
+						"w": 167,
+						"h": 86
+					}
+				},
+				{
+					"filename": "shack/bucket/back_0004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 95
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 166,
+						"h": 85
+					},
+					"frame": {
+						"x": 573,
+						"y": 1920,
+						"w": 166,
+						"h": 85
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0001",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 156
+					},
+					"frame": {
+						"x": 1771,
+						"y": 810,
+						"w": 71,
+						"h": 156
+					}
+				},
+				{
+					"filename": "shack/flowPipe/6/6_0005",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 157
+					},
+					"frame": {
+						"x": 1795,
+						"y": 968,
+						"w": 72,
+						"h": 157
+					}
+				},
+				{
+					"filename": "shack/flowPipe/6/6_0006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 157
+					},
+					"frame": {
+						"x": 1820,
+						"y": 1127,
+						"w": 72,
+						"h": 157
+					}
+				},
+				{
+					"filename": "shack/flowPipe/6/6_0007",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 157
+					},
+					"frame": {
+						"x": 1820,
+						"y": 1286,
+						"w": 72,
+						"h": 157
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0051",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 154
+					},
+					"frame": {
+						"x": 1802,
+						"y": 1445,
+						"w": 102,
+						"h": 154
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0002",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 156
+					},
+					"frame": {
+						"x": 1743,
+						"y": 1664,
+						"w": 71,
+						"h": 156
+					}
+				},
+				{
+					"filename": "shack/flowPipe/6/6_0008",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 157
+					},
+					"frame": {
+						"x": 790,
+						"y": 1569,
+						"w": 72,
+						"h": 157
+					}
+				},
+				{
+					"filename": "shack/flowPipe/6/6_0009",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 157
+					},
+					"frame": {
+						"x": 790,
+						"y": 1569,
+						"w": 72,
+						"h": 157
+					}
+				},
+				{
+					"filename": "shack/bucket/front_0007",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 168,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 7,
+						"w": 166,
+						"h": 129
+					},
+					"frame": {
+						"x": 864,
+						"y": 1542,
+						"w": 166,
+						"h": 129
+					}
+				},
+				{
+					"filename": "shack/bucket/front_0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 168,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 6,
+						"w": 164,
+						"h": 131
+					},
+					"frame": {
+						"x": 864,
+						"y": 1673,
+						"w": 164,
+						"h": 131
+					}
+				},
+				{
+					"filename": "shack/flowPipe/6/6_0010",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 157
+					},
+					"frame": {
+						"x": 790,
+						"y": 1728,
+						"w": 72,
+						"h": 157
+					}
+				},
+				{
+					"filename": "shack/bucket/back_0007",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 95
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 3,
+						"w": 164,
+						"h": 81
+					},
+					"frame": {
+						"x": 864,
+						"y": 1806,
+						"w": 164,
+						"h": 81
+					}
+				},
+				{
+					"filename": "shack/flowPipe/6/6_0011",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 157
+					},
+					"frame": {
+						"x": 1032,
+						"y": 1542,
+						"w": 72,
+						"h": 157
+					}
+				},
+				{
+					"filename": "shack/flowPipe/6/6_0012",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 157
+					},
+					"frame": {
+						"x": 1030,
+						"y": 1701,
+						"w": 72,
+						"h": 157
+					}
+				},
+				{
+					"filename": "shack/flowPipe/6/6_0013",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 157
+					},
+					"frame": {
+						"x": 1030,
+						"y": 1701,
+						"w": 72,
+						"h": 157
+					}
+				},
+				{
+					"filename": "shack/bucket/front_0008",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 168,
+						"h": 137
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 5,
+						"w": 163,
+						"h": 132
+					},
+					"frame": {
+						"x": 1106,
+						"y": 1615,
+						"w": 163,
+						"h": 132
+					}
+				},
+				{
+					"filename": "shack/cart1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 141,
+						"h": 127
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 141,
+						"h": 127
+					},
+					"frame": {
+						"x": 1104,
+						"y": 1749,
+						"w": 141,
+						"h": 127
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0013",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 24,
+						"w": 71,
+						"h": 132
+					},
+					"frame": {
+						"x": 1271,
+						"y": 1615,
+						"w": 71,
+						"h": 132
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0050",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 101,
+						"h": 152
+					},
+					"frame": {
+						"x": 1247,
+						"y": 1749,
+						"w": 101,
+						"h": 152
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0013",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 96,
+						"w": 114,
+						"h": 92
+					},
+					"frame": {
+						"x": 1344,
+						"y": 1651,
+						"w": 114,
+						"h": 92
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0052",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 154
+					},
+					"frame": {
+						"x": 1350,
+						"y": 1745,
+						"w": 102,
+						"h": 154
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0057",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 154
+					},
+					"frame": {
+						"x": 1350,
+						"y": 1745,
+						"w": 102,
+						"h": 154
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0009",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 62,
+						"w": 113,
+						"h": 128
+					},
+					"frame": {
+						"x": 1350,
+						"y": 1901,
+						"w": 113,
+						"h": 128
+					}
+				},
+				{
+					"filename": "shack/channels/constant/top_",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 99,
+						"h": 153
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 99,
+						"h": 153
+					},
+					"frame": {
+						"x": 1816,
+						"y": 1601,
+						"w": 99,
+						"h": 153
+					}
+				},
+				{
+					"filename": "shack/recycle/door_0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 113,
+						"h": 112
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 112,
+						"h": 112
+					},
+					"frame": {
+						"x": 1460,
+						"y": 1731,
+						"w": 112,
+						"h": 112
+					}
+				},
+				{
+					"filename": "shack/bucket/back_0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 95
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 3,
+						"w": 163,
+						"h": 79
+					},
+					"frame": {
+						"x": 1574,
+						"y": 1793,
+						"w": 163,
+						"h": 79
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0047",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 152
+					},
+					"frame": {
+						"x": 1465,
+						"y": 1845,
+						"w": 102,
+						"h": 152
+					}
+				},
+				{
+					"filename": "shack/bucket/back_0008",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 95
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 2,
+						"w": 162,
+						"h": 77
+					},
+					"frame": {
+						"x": 1569,
+						"y": 1874,
+						"w": 162,
+						"h": 77
+					}
+				},
+				{
+					"filename": "shack/bucket/back_0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 95
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 1,
+						"w": 160,
+						"h": 74
+					},
+					"frame": {
+						"x": 1569,
+						"y": 1953,
+						"w": 160,
+						"h": 74
+					}
+				},
+				{
+					"filename": "shack/flowPipe/6/6_0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 67,
+						"h": 157
+					},
+					"frame": {
+						"x": 1844,
+						"y": 797,
+						"w": 67,
+						"h": 157
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0003",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 156
+					},
+					"frame": {
+						"x": 1913,
+						"y": 787,
+						"w": 71,
+						"h": 156
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0004",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 156
+					},
+					"frame": {
+						"x": 1869,
+						"y": 956,
+						"w": 71,
+						"h": 156
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0005",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 156
+					},
+					"frame": {
+						"x": 1894,
+						"y": 1114,
+						"w": 71,
+						"h": 156
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0025",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 92,
+						"y": 322,
+						"w": 102,
+						"h": 141
+					},
+					"frame": {
+						"x": 1894,
+						"y": 1272,
+						"w": 102,
+						"h": 141
+					}
+				},
+				{
+					"filename": "shack/flowPipe/6/6_0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 273
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 42,
+						"h": 153
+					},
+					"frame": {
+						"x": 1942,
+						"y": 945,
+						"w": 42,
+						"h": 153
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0042",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 86,
+						"h": 128
+					},
+					"frame": {
+						"x": 1906,
+						"y": 1415,
+						"w": 86,
+						"h": 128
+					}
+				},
+				{
+					"filename": "shack/bucket/back_0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 95
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 157,
+						"h": 68
+					},
+					"frame": {
+						"x": 1816,
+						"y": 1756,
+						"w": 157,
+						"h": 68
+					}
+				},
+				{
+					"filename": "shack/bucket/back_0010",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 95
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 157,
+						"h": 68
+					},
+					"frame": {
+						"x": 1816,
+						"y": 1756,
+						"w": 157,
+						"h": 68
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0012",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 15,
+						"w": 71,
+						"h": 141
+					},
+					"frame": {
+						"x": 1975,
+						"y": 1545,
+						"w": 71,
+						"h": 141
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0014",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 33,
+						"w": 71,
+						"h": 123
+					},
+					"frame": {
+						"x": 1975,
+						"y": 1688,
+						"w": 71,
+						"h": 123
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0015",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 42,
+						"w": 71,
+						"h": 114
+					},
+					"frame": {
+						"x": 1975,
+						"y": 1813,
+						"w": 71,
+						"h": 114
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0019",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 79,
+						"w": 71,
+						"h": 77
+					},
+					"frame": {
+						"x": 685,
+						"y": 1104,
+						"w": 71,
+						"h": 77
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0029",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 92,
+						"y": 364,
+						"w": 60,
+						"h": 97
+					},
+					"frame": {
+						"x": 1986,
+						"y": 618,
+						"w": 60,
+						"h": 97
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0020",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 88,
+						"w": 71,
+						"h": 68
+					},
+					"frame": {
+						"x": 1972,
+						"y": 717,
+						"w": 71,
+						"h": 68
+					}
+				},
+				{
+					"filename": "shack/shovel",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 58,
+						"h": 126
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 58,
+						"h": 126
+					},
+					"frame": {
+						"x": 1986,
+						"y": 787,
+						"w": 58,
+						"h": 126
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0030",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 94,
+						"y": 379,
+						"w": 58,
+						"h": 83
+					},
+					"frame": {
+						"x": 1986,
+						"y": 915,
+						"w": 58,
+						"h": 83
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0040",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 51,
+						"h": 90
+					},
+					"frame": {
+						"x": 1986,
+						"y": 1000,
+						"w": 51,
+						"h": 90
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0041",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 75,
+						"h": 115
+					},
+					"frame": {
+						"x": 1739,
+						"y": 1822,
+						"w": 75,
+						"h": 115
+					}
+				},
+				{
+					"filename": "shack/recycle/door_0002",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 113,
+						"h": 112
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 112,
+						"h": 112
+					},
+					"frame": {
+						"x": 1816,
+						"y": 1826,
+						"w": 112,
+						"h": 112
+					}
+				},
+				{
+					"filename": "shack/spray/spray_0007",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 44,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 43,
+						"h": 83
+					},
+					"frame": {
+						"x": 1930,
+						"y": 1826,
+						"w": 43,
+						"h": 83
+					}
+				},
+				{
+					"filename": "shack/spray/spray_0008",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 44,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 43,
+						"h": 83
+					},
+					"frame": {
+						"x": 1930,
+						"y": 1826,
+						"w": 43,
+						"h": 83
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0012",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 90,
+						"w": 114,
+						"h": 103
+					},
+					"frame": {
+						"x": 741,
+						"y": 1920,
+						"w": 114,
+						"h": 103
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 83,
+						"w": 114,
+						"h": 98
+					},
+					"frame": {
+						"x": 857,
+						"y": 1889,
+						"w": 114,
+						"h": 98
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0023",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 116,
+						"w": 71,
+						"h": 40
+					},
+					"frame": {
+						"x": 857,
+						"y": 1989,
+						"w": 71,
+						"h": 40
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0027",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 94,
+						"y": 341,
+						"w": 87,
+						"h": 122
+					},
+					"frame": {
+						"x": 973,
+						"y": 1889,
+						"w": 87,
+						"h": 122
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0014",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 102,
+						"w": 114,
+						"h": 81
+					},
+					"frame": {
+						"x": 1062,
+						"y": 1878,
+						"w": 114,
+						"h": 81
+					}
+				},
+				{
+					"filename": "shack/spray/spray_0005",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 44,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 44,
+						"h": 83
+					},
+					"frame": {
+						"x": 1178,
+						"y": 1878,
+						"w": 44,
+						"h": 83
+					}
+				},
+				{
+					"filename": "shack/spray/spray_0006",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 44,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 44,
+						"h": 83
+					},
+					"frame": {
+						"x": 1178,
+						"y": 1878,
+						"w": 44,
+						"h": 83
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0005",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 99,
+						"w": 114,
+						"h": 79
+					},
+					"frame": {
+						"x": 1224,
+						"y": 1903,
+						"w": 114,
+						"h": 79
+					}
+				},
+				{
+					"filename": "shack/flowers",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 72,
+						"h": 62
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 72,
+						"h": 61
+					},
+					"frame": {
+						"x": 1062,
+						"y": 1961,
+						"w": 72,
+						"h": 61
+					}
+				},
+				{
+					"filename": "shack/channels/3/3_0028",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 227,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 92,
+						"y": 350,
+						"w": 72,
+						"h": 111
+					},
+					"frame": {
+						"x": 1967,
+						"y": 1100,
+						"w": 72,
+						"h": 111
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0022",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 107,
+						"w": 71,
+						"h": 49
+					},
+					"frame": {
+						"x": 1967,
+						"y": 1213,
+						"w": 71,
+						"h": 49
+					}
+				},
+				{
+					"filename": "shack/spray/spray_0009",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 44,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 83
+					},
+					"frame": {
+						"x": 1998,
+						"y": 1264,
+						"w": 44,
+						"h": 83
+					}
+				},
+				{
+					"filename": "shack/spray/spray_0010",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 44,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 44,
+						"h": 83
+					},
+					"frame": {
+						"x": 1998,
+						"y": 1264,
+						"w": 44,
+						"h": 83
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0003",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 95,
+						"w": 62,
+						"h": 46
+					},
+					"frame": {
+						"x": 1906,
+						"y": 1545,
+						"w": 62,
+						"h": 46
+					}
+				},
+				{
+					"filename": "shack/spray/spray_0011",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 44,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 44,
+						"h": 82
+					},
+					"frame": {
+						"x": 1917,
+						"y": 1593,
+						"w": 44,
+						"h": 82
+					}
+				},
+				{
+					"filename": "shack/spray/spray_0012",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 44,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 44,
+						"h": 82
+					},
+					"frame": {
+						"x": 1917,
+						"y": 1593,
+						"w": 44,
+						"h": 82
+					}
+				},
+				{
+					"filename": "shack/spray/spray_0015",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 44,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 44,
+						"h": 82
+					},
+					"frame": {
+						"x": 1998,
+						"y": 1349,
+						"w": 44,
+						"h": 82
+					}
+				},
+				{
+					"filename": "shack/spray/spray_0016",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 44,
+						"h": 84
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 44,
+						"h": 82
+					},
+					"frame": {
+						"x": 1998,
+						"y": 1349,
+						"w": 44,
+						"h": 82
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0021",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 98,
+						"w": 71,
+						"h": 58
+					},
+					"frame": {
+						"x": 1136,
+						"y": 1963,
+						"w": 71,
+						"h": 58
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0004",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 95,
+						"w": 62,
+						"h": 40
+					},
+					"frame": {
+						"x": 1209,
+						"y": 1984,
+						"w": 62,
+						"h": 40
+					}
+				},
+				{
+					"filename": "shack/shedFood/food_0001",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 236
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 94,
+						"w": 62,
+						"h": 61
+					},
+					"frame": {
+						"x": 1733,
+						"y": 1939,
+						"w": 62,
+						"h": 61
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0017",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 61,
+						"w": 71,
+						"h": 95
+					},
+					"frame": {
+						"x": 1930,
+						"y": 1929,
+						"w": 71,
+						"h": 95
+					}
+				}
+			]
+		},
+		{
+			"image": "/img/mineExterieur/3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 926,
+				"h": 158
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "shack/flowPipe/7_/7_0018",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 70,
+						"w": 71,
+						"h": 86
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 71,
+						"h": 86
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0016",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 52,
+						"w": 71,
+						"h": 104
+					},
+					"frame": {
+						"x": 74,
+						"y": 1,
+						"w": 71,
+						"h": 104
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0048",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 152
+					},
+					"frame": {
+						"x": 147,
+						"y": 1,
+						"w": 102,
+						"h": 152
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0053",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 152
+					},
+					"frame": {
+						"x": 251,
+						"y": 1,
+						"w": 102,
+						"h": 152
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0054",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 152
+					},
+					"frame": {
+						"x": 251,
+						"y": 1,
+						"w": 102,
+						"h": 152
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0055",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 101,
+						"h": 152
+					},
+					"frame": {
+						"x": 355,
+						"y": 1,
+						"w": 101,
+						"h": 152
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0056",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 101,
+						"h": 152
+					},
+					"frame": {
+						"x": 355,
+						"y": 1,
+						"w": 101,
+						"h": 152
+					}
+				},
+				{
+					"filename": "shack/channels/2/2_0058",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 226,
+						"h": 463
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 154
+					},
+					"frame": {
+						"x": 458,
+						"y": 1,
+						"w": 102,
+						"h": 154
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0006",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 156
+					},
+					"frame": {
+						"x": 562,
+						"y": 1,
+						"w": 71,
+						"h": 156
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0007",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 156
+					},
+					"frame": {
+						"x": 635,
+						"y": 1,
+						"w": 71,
+						"h": 156
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0008",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 156
+					},
+					"frame": {
+						"x": 708,
+						"y": 1,
+						"w": 71,
+						"h": 156
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0009",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 156
+					},
+					"frame": {
+						"x": 781,
+						"y": 1,
+						"w": 71,
+						"h": 156
+					}
+				},
+				{
+					"filename": "shack/flowPipe/7_/7_0010",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 71,
+						"h": 156
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 156
+					},
+					"frame": {
+						"x": 854,
+						"y": 1,
+						"w": 71,
+						"h": 156
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:b944d536ca76ed5c7dfa67d6a8c38595:98a306858b6ac38615af159ece7bfa59:a7d0f40500e2bb5444fbdab5eb235a22$"
+	}
+}
