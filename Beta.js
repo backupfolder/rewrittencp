@@ -52,6 +52,7 @@ class Beta extends Phaser.Scene {
     
     confirmation.on('pointerup', function() {
       confirmation.setTexture('atlaspenguin-0', 'core/ui/button/blue_shaded/thin_1');
+      this.scene.start('welcome');
     }, this);
     
     confirmation.on('pointerout', function() {

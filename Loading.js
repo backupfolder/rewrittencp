@@ -1,5 +1,4 @@
-/* global Phaser */
-let background, spinner, loadingcontent, loadingicon, loadingcontainer, loadingbar, progressBar;
+let background, spinner, loadingcontent, loadingicon, loadingcontainer, loadingbar;
 
 
 class Loading extends Phaser.Scene {
