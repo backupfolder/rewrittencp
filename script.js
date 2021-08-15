@@ -14,7 +14,7 @@ const config = {
       gravity: { y: 700},
       debug: false
     }
-  }, scene: [Loading, Beta, Welcome, MineExterieur]
+  }, scene: [Loading, Beta, Welcome, Interface, MineExterieur]
   
 }
 

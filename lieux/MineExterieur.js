@@ -1,10 +1,11 @@
-let mineExterieurBackground;
+let mineExterieurBackground, mineBatiment, plantes;
 
 class MineExterieur extends Phaser.Scene {
 
   constructor() {
     super('mineExterieur');
   }
+
   create() {
     // LOADING 
     background = this.add.image(640, 400, 'atlaspenguin-1', 'preload/blue_background');
@@ -30,25 +31,28 @@ class MineExterieur extends Phaser.Scene {
     loadingicon.x = 1280 / 2;
     loadingicon.play('animation');
     this.load.on('progress', function(value) {
-      console.log(value);
       loadingbar.clear();
       loadingbar.fillStyle(0xffffff, 1);
       loadingbar.fillRect(0, 0, 190 * value, 22);
     });
     this.load.once('complete', () => {
-      console.log('chargement fini');
       loadingcontent.destroy();
       background.destroy();
       loadingicon.destroy();
       loadingbar.destroy();
       loadingcontainer.destroy();
-   //   mine();
+      // chargement termine
+      
+      console.log('Chargement de la mine complete.')
+      this.scene.launch('interface');
+      
+      mineExterieurBackground = this.add.image(1280/2, 720/2, 'matlasmine', 'shack/background');
+      mineBatiment = this.add.image(700, 200, 'matlasmine', 'shack/shack_building');
+      
+      plantes = this.add.image(400, 100, 'matlasmine', 'shack/plants/5/5_0025');
+      // chargement termine
     });
-    this.load.multiatlas('mine', 'assets/json/mine.json', 'assets');
+    this.load.multiatlas('matlasmine', 'assets/json/mine.json', 'assets');
     this.load.start();
   }
-/*  mine() {
-    console.log('aa');
-  } */
-
 }

@@ -1,6 +1,5 @@
 let background, spinner, loadingcontent, loadingicon, loadingcontainer, loadingbar;
 
-
 class Loading extends Phaser.Scene {
   constructor() {
     super('loadingGame');
@@ -34,13 +33,12 @@ class Loading extends Phaser.Scene {
     loadingicon.play('animation');
     
     this.load.on('progress', function(value) {
-      console.log(value);
       loadingbar.clear();
       loadingbar.fillStyle(0xffffff, 1);
       loadingbar.fillRect(0, 0, 190 * value, 22);
     });
     this.load.once('complete', () => {
-      console.log('chargement fini');
+      console.log('Premier chargement complete.')
       this.scene.start('betaGame');
     });
     
