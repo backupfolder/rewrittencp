@@ -1,4 +1,4 @@
-let mineExterieurBackground, mineBatiment, plantes;
+let mineExterieurBackground, mineBatiment, trees, tree, sign, bag, recyclebuilding, statue, fence, mur, cart1, cart2, mineDoors, flowers;
 
 class MineExterieur extends Phaser.Scene {
 
@@ -47,9 +47,35 @@ class MineExterieur extends Phaser.Scene {
       this.scene.launch('interface');
       
       mineExterieurBackground = this.add.image(1280/2, 720/2, 'matlasmine', 'shack/background');
-      mineBatiment = this.add.image(700, 200, 'matlasmine', 'shack/shack_building');
+      mineExterieurBackground.scale = 0.85;
+      mineBatiment = this.add.image(670, 150, 'matlasmine', 'shack/shack_building');
       
-      plantes = this.add.image(400, 100, 'matlasmine', 'shack/plants/5/5_0025');
+      tree = this.add.image(320, 140, 'matlasmine', 'shack/tree');
+      tree.scale = 0.8;
+      
+      recyclebuilding = this.add.image(90, 240, 'matlasmine', 'shack/recycle/building');
+      recyclebuilding.scale = 0.8;
+      mineDoors = this.add.image(55, 312, 'matlasmine', 'shack/recycle/door_0001');
+      mineDoors.scale = 0.8;
+      
+      trees = this.add.image(90, 530, 'matlasmine', 'shack/trees1');
+      trees.scale = 0.8;
+      
+      sign = this.add.image(650, 215, 'matlasmine', 'shack/shack_sign0001');
+      
+      bag = this.add.image(1010, 355, 'matlasmine', 'shack/bag');
+      
+      statue = this.add.image(930, 320, 'matlasmine', 'shack/statue');
+      statue.scale = 0.8;
+      
+      mur = this.add.image(1000, 500, 'matlasmine', 'shack/house2');
+      cart2 = this.add.image(530, 360, 'matlasmine', 'shack/cart2');
+      cart1 = this.add.image(430, 400, 'matlasmine', 'shack/cart1');
+      
+      fence = this.add.image(600, 430, 'matlasmine', 'shack/fence1');
+      flowers = this.add.image(180, 330, 'matlasmine', 'shack/flowers');
+      flowers = this.add.image(850, 390, 'matlasmine', 'shack/flowers');
+
       // chargement termine
     });
     this.load.multiatlas('matlasmine', 'assets/json/mine.json', 'assets');
