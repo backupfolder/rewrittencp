@@ -1,5 +1,5 @@
 let mailIcon, mapIcon, mod, new1, news, dock, dockText, thing;
-let penguin;
+let penguin, penguinColor, penguinBody, penguinTintFill = '#FF0000'; 
 class Interface extends Phaser.Scene {
 
     constructor() {
@@ -83,7 +83,14 @@ class Interface extends Phaser.Scene {
       // icones room_basic/dock/icons/dock_home
       // interface
       // penguin
-      penguin = this.add.sprite(1280/2, 720/2, 'matlasPenguinBody', '62-3');
+      
+      penguin = this.add.container();
+      
+      penguinColor = this.add.sprite(800, 530, 'matlasPenguinBody', '74-44');
+      penguinBody = this.add.sprite(800, 530, 'matlasPenguinFeatures', '74-44');
+      penguinColor.setTintFill(penguinTintFill);
+      
+      penguin.add([penguinColor, penguinBody]);
       // penguin
     }
 }
