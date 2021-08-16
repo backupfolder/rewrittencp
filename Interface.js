@@ -8,6 +8,8 @@ class Interface extends Phaser.Scene {
     }
     
     create() {
+      
+      // ajout de tous les boutons et de l'interactivite
       mapIcon = this.add.sprite(75, 650, 'matlasInterface', 'room_basic/tools/map/map1');
       mapIcon.scale = 0.85;
       
@@ -89,16 +91,11 @@ class Interface extends Phaser.Scene {
       penguinBody = this.physics.add.sprite(800, 530, 'matlasPenguinFeatures', '74-44');
       penguinColor.setTintFill(penguinTintFill);
       
-      this.input.on('pointerdown', () => {
-        if (penguinBody.x > this.input.activePointer.x) {
-          penguinBody.setVelocityX(-60);
-          penguinColor.setVelocityX(-60);
-        } else {
-          penguinBody.setVelocityX(60);
-          penguinColor.setVelocityX(60);
-        }
-      });
-      // penguin
+      this.input.on('pointerdown', (pointer) => {
+        this.physics.moveToObject(penguinBody, pointer, 240);
+        this.physics.moveToObject(penguinColor, pointer, 240);
+      }, this);
+    // penguin
     }
     update () {
       
