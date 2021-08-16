@@ -1,4 +1,5 @@
-let mailIcon, mapIcon, penguindance, mod, new1, news, dock, dockText, thing;
+let mailIcon, mapIcon, mod, new1, news, dock, dockText, thing;
+let penguin;
 class Interface extends Phaser.Scene {
 
     constructor() {
@@ -24,7 +25,6 @@ class Interface extends Phaser.Scene {
     });
     
     
-      penguindance = this.add.sprite(500, 700, 'matlasInterface', 'room_basic/dock/actions/penguin_dance');
       mod = this.add.sprite(1210, 60, 'matlasInterface', 'room_basic/tools/mod/mod1');
       mod.scale = 0.95;
       
@@ -81,5 +81,9 @@ class Interface extends Phaser.Scene {
       dockText = this.add.sprite(1280/2, 695, 'matlasInterface', 'room_basic/dock/dock_text');
       dockText.scale = 0.5;
       // icones room_basic/dock/icons/dock_home
+      // interface
+      // penguin
+      penguin = this.add.sprite(1280/2, 720/2, 'matlasPenguinBody', '62-3');
+      // penguin
     }
 }

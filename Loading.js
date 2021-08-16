@@ -43,7 +43,7 @@ class Loading extends Phaser.Scene {
     });
     
     this.load.multiatlas('atlaspenguin-0', 'assets/json/atlaspenguin-0.json', 'assets');
-    this.load.multiatlas('atlaspenguin-0', 'assets/json/penguinbody.json', 'assets');
+    this.load.multiatlas('matlasPenguinBody', 'assets/json/penguinbody.json', 'assets');
     this.load.multiatlas('matlasInterface', 'assets/json/interface.json', 'assets');
     this.load.start();
   }
