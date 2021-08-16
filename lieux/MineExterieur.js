@@ -44,7 +44,6 @@ class MineExterieur extends Phaser.Scene {
       // chargement termine
       
       console.log('Chargement de la mine complete.')
-      this.scene.launch('interface');
       
       mineExterieurBackground = this.add.image(1280/2, 720/2, 'matlasmine', 'shack/background');
       mineExterieurBackground.scale = 0.85;
@@ -68,15 +67,18 @@ class MineExterieur extends Phaser.Scene {
       statue = this.add.image(930, 320, 'matlasmine', 'shack/statue');
       statue.scale = 0.8;
       
-      mur = this.add.image(1000, 500, 'matlasmine', 'shack/house2');
+   //   mur = this.add.image(1000, 500, 'matlasmine', 'shack/house2');
       cart2 = this.add.image(530, 360, 'matlasmine', 'shack/cart2');
       cart1 = this.add.image(430, 400, 'matlasmine', 'shack/cart1');
       
       fence = this.add.image(600, 430, 'matlasmine', 'shack/fence1');
       flowers = this.add.image(180, 330, 'matlasmine', 'shack/flowers');
       flowers = this.add.image(850, 390, 'matlasmine', 'shack/flowers');
-
-      // chargement termine
+      
+      this.scene.moveBelow('interface', 'mineExterieur');
+      this.scene.pause();
+      this.scene.launch('interface');
+            // chargement termine
     });
     this.load.multiatlas('matlasmine', 'assets/json/mine.json', 'assets');
     this.load.start();
