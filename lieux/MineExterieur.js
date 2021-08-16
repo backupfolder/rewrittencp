@@ -47,13 +47,15 @@ class MineExterieur extends Phaser.Scene {
       
       mineExterieurBackground = this.add.image(1280/2, 720/2, 'matlasmine', 'shack/background');
       mineExterieurBackground.scale = 0.85;
+      
+      recyclebuilding = this.physics.add.image(90, 240, 'matlasmine', 'shack/recycle/building');
+      recyclebuilding.scale = 0.8;
+      
       mineBatiment = this.add.image(670, 150, 'matlasmine', 'shack/shack_building');
       
       tree = this.add.image(320, 140, 'matlasmine', 'shack/tree');
       tree.scale = 0.8;
       
-      recyclebuilding = this.add.image(90, 240, 'matlasmine', 'shack/recycle/building');
-      recyclebuilding.scale = 0.8;
       mineDoors = this.add.image(55, 312, 'matlasmine', 'shack/recycle/door_0001');
       mineDoors.scale = 0.8;
       
@@ -76,9 +78,9 @@ class MineExterieur extends Phaser.Scene {
       flowers = this.add.image(850, 390, 'matlasmine', 'shack/flowers');
       
       this.scene.moveBelow('interface', 'mineExterieur');
-      this.scene.pause();
       this.scene.launch('interface');
-            // chargement termine
+      
+      // chargement termine
     });
     this.load.multiatlas('matlasmine', 'assets/json/mine.json', 'assets');
     this.load.start();

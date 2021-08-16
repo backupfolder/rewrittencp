@@ -90,14 +90,16 @@ class Interface extends Phaser.Scene {
       penguinColor = this.physics.add.sprite(800, 530, 'matlasPenguinBody', '74-44');
       penguinBody = this.physics.add.sprite(800, 530, 'matlasPenguinFeatures', '74-44');
       penguinColor.setTintFill(penguinTintFill);
-      
+    
       // mouvement du penguin
       this.input.on('pointerdown', (pointer) => {
         this.physics.moveToObject(penguinBody, pointer, 200);
         this.physics.moveToObject(penguinColor, pointer, 200);
         moving = true;
       }, this);
-      
+      // collisions
+      this.physics.add.collider(penguinBody, recyclebuilding);
+      this.physics.add.collider(penguinColor, recyclebuilding);
     // penguin
     }
     update () {
