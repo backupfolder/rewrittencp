@@ -5,10 +5,6 @@ class Interface extends Phaser.Scene {
       super('interface');
     }
     
-    preload() {
-      this.load.multiatlas('matlasInterface', 'assets/json/interface.json', 'assets');
-    }
-    
     create() {
       mapIcon = this.add.sprite(75, 650, 'matlasInterface', 'room_basic/tools/map/map1');
       mapIcon.scale = 0.85;
