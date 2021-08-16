@@ -11,7 +11,7 @@ const config = {
   physics: {
     default: 'arcade',
     arcade: {
-      gravity: { y: 700},
+      gravity: { y: 0},
       debug: false
     }
   }, scene: [Loading, Beta, Welcome, Interface, MineExterieur]

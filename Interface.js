@@ -1,5 +1,6 @@
 let mailIcon, mapIcon, mod, new1, news, dock, dockText, thing;
-let penguin, penguinColor, penguinBody, penguinTintFill = '#FF0000'; 
+let penguinColor, penguinBody, penguinTintFill = '#FF0000';
+
 class Interface extends Phaser.Scene {
 
     constructor() {
@@ -84,13 +85,22 @@ class Interface extends Phaser.Scene {
       // interface
       // penguin
       
-      penguin = this.add.container();
-      
-      penguinColor = this.add.sprite(800, 530, 'matlasPenguinBody', '74-44');
-      penguinBody = this.add.sprite(800, 530, 'matlasPenguinFeatures', '74-44');
+      penguinColor = this.physics.add.sprite(800, 530, 'matlasPenguinBody', '74-44');
+      penguinBody = this.physics.add.sprite(800, 530, 'matlasPenguinFeatures', '74-44');
       penguinColor.setTintFill(penguinTintFill);
       
-      penguin.add([penguinColor, penguinBody]);
+      this.input.on('pointerdown', () => {
+        if (penguinBody.x > this.input.activePointer.x) {
+          penguinBody.setVelocityX(-60);
+          penguinColor.setVelocityX(-60);
+        } else {
+          penguinBody.setVelocityX(60);
+          penguinColor.setVelocityX(60);
+        }
+      });
       // penguin
+    }
+    update () {
+      
     }
 }
