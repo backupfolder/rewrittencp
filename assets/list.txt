@@ -22,3 +22,4 @@ https://cdn.cprewritten.net/raw/clothing//sprites/3186.json
 https://cdn.cprewritten.net/raw/clothing//sprites/4108.json
 https://cdn.cprewritten.net/raw/clothing//sprites/5357.json
 https://cdn.cprewritten.net/raw/clothing//sprites/387.json
+https://play.cprewritten.net/assets/content/global/rooms/shack/physics.json?v=1.6.3-beta
