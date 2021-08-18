@@ -47,9 +47,10 @@ class MineExterieur extends Phaser.Scene {
       
       mineExterieurBackground = this.add.image(1280/2, 720/2, 'matlasmine', 'shack/background');
       mineExterieurBackground.scale = 0.85;
-      
-      recyclebuilding = this.physics.add.image(90, 240, 'matlasmine', 'shack/recycle/building');
+
+      recyclebuilding = this.physics.add.sprite(90, 240, 'matlasmine', 'shack/recycle/building');
       recyclebuilding.scale = 0.8;
+      recyclebuilding.body.immovable = true;
       
       mineBatiment = this.add.image(670, 150, 'matlasmine', 'shack/shack_building');
       

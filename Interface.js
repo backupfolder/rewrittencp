@@ -1,5 +1,7 @@
 let mailIcon, mapIcon, mod, new1, news, dock, dockText, thing;
-let penguinColor, penguinBody, penguinTintFill = '#FF0000', moving = false;
+
+let penguinColor, penguinBody, penguinTintFill = '#FF0000', moving = false, lastpointerx, lastpointery;
+
 
 class Interface extends Phaser.Scene {
 
@@ -8,7 +10,12 @@ class Interface extends Phaser.Scene {
     }
     
     create() {
-      
+
+      penguinColor = this.physics.add.sprite(800, 530, 'matlasPenguinBody', '74-44').setSize(50, 50);
+      penguinBody = this.physics.add.sprite(800, 530, 'matlasPenguinFeatures', '74-44').setSize(50, 50);
+      penguinColor.body.onWorldBounds = true;
+      penguinBody.body.onWorldBounds = true;
+
       // ajout de tous les boutons et de l'interactivite
       mapIcon = this.add.sprite(75, 650, 'matlasInterface', 'room_basic/tools/map/map1');
       mapIcon.scale = 0.85;
@@ -86,9 +93,7 @@ class Interface extends Phaser.Scene {
       // icones room_basic/dock/icons/dock_home
       // interface
       // penguin
-      
-      penguinColor = this.physics.add.sprite(800, 530, 'matlasPenguinBody', '74-44');
-      penguinBody = this.physics.add.sprite(800, 530, 'matlasPenguinFeatures', '74-44');
+
       penguinColor.setTintFill(penguinTintFill);
     
       // mouvement du penguin
@@ -96,6 +101,10 @@ class Interface extends Phaser.Scene {
         this.physics.moveToObject(penguinBody, pointer, 200);
         this.physics.moveToObject(penguinColor, pointer, 200);
         moving = true;
+
+        lastpointerx = this.input.activePointer.x;
+        lastpointery = this.input.activePointer.y;
+
       }, this);
       // collisions
       this.physics.add.collider(penguinBody, recyclebuilding);
@@ -106,7 +115,8 @@ class Interface extends Phaser.Scene {
       
       // arret du penguin lorsque arrive a destination
       if (moving = true) {
-      if ((Math.ceil(penguinBody.x/10)*10) == (Math.ceil(this.input.activePointer.x/10)* 10) && (Math.ceil(penguinBody.y/10)*10) == (Math.ceil(this.input.activePointer.y/10)* 10)) {
+      if ((Math.ceil(penguinBody.x/10)*10) == (Math.ceil(lastpointerx/10)* 10) && (Math.ceil(penguinBody.y/10)*10) == (Math.ceil(lastpointery/10)* 10)) {
+
         this.physics.moveToObject(penguinBody, penguinBody, 0);
         this.physics.moveToObject(penguinColor, penguinColor, 0);
         moving = false;
