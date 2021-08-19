@@ -1,4 +1,4 @@
-let penguinColor, penguinBody;
+let penguin, penguinColor, penguinBody;
 
 let mineExterieurBackground, mineBatiment, trees, tree, sign, bag, recyclebuilding, statue, fence, mur, cart1, cart2, mineDoors, flowers;
 
@@ -93,8 +93,8 @@ class MineExterieur extends Phaser.Scene {
       
       penguinColor = this.matter.add.sprite(800, 530, 'matlasPenguinBody', '74-44').setFrictionAir(0).setFixedRotation();
       penguinBody = this.matter.add.sprite(800, 530, 'matlasPenguinFeatures', '74-44').setFrictionAir(0).setFixedRotation();
-      penguinColor.setCollisionGroup(-1);
       penguinBody.setCollisionGroup(-1);
+      penguinColor.setCollisionGroup(-1);
       
       this.scene.moveBelow('interface', 'mineExterieur');
       this.scene.launch('interface');

@@ -115,5 +115,9 @@ class Interface extends Phaser.Scene {
         moving = false;
       }  
       }
+      
+      // attacher penguinColor avec penguinBody
+      penguinColor.setX(penguinBody.x);
+      penguinColor.setY(penguinBody.y);
     }
 }
