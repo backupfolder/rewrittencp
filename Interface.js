@@ -1,6 +1,6 @@
 let mailIcon, mapIcon, mod, new1, news, dock, dockText, thing;
 
-let penguinColor, penguinBody, penguinTintFill = '#FF0000', moving = false, lastpointerx, lastpointery;
+let penguinTintFill = '#FF0000', moving = false, lastpointerx, lastpointery;
 
 function velocityToTarget(from, to, speed = 1)  {
    direction = Math.atan((to.x - from.x) / (to.y - from.y));
@@ -16,11 +16,6 @@ class Interface extends Phaser.Scene {
     }
     
     create() {
-
-      penguinColor = this.matter.add.sprite(800, 530, 'matlasPenguinBody', '74-44').setSize(50, 50).setTintFill(penguinTintFill).setFrictionAir(0).setFixedRotation();
-      
-      penguinBody = this.matter.add.sprite(800, 530, 'matlasPenguinFeatures', '74-44').setSize(50, 50).setFrictionAir(0).setFixedRotation();
-
       // ajout de tous les boutons et de l'interactivite
       mapIcon = this.add.sprite(75, 650, 'matlasInterface', 'room_basic/tools/map/map1');
       mapIcon.scale = 0.85;
@@ -38,7 +33,6 @@ class Interface extends Phaser.Scene {
     mapIcon.on('pointerout', function() {
       mapIcon.setTexture('matlasInterface', 'room_basic/tools/map/map1');
     });
-    
     
       mod = this.add.sprite(1210, 60, 'matlasInterface', 'room_basic/tools/mod/mod1');
       mod.scale = 0.95;
@@ -97,18 +91,14 @@ class Interface extends Phaser.Scene {
       dockText.scale = 0.5;
       // interface
       // penguin
-      
-      // enlever les collisions
-      penguinColor.setCollidesWith(0);
-      penguinBody.setCollidesWith(0);
-      
+      penguinColor.setTintFill(penguinTintFill)
       // mouvement du penguin
       this.input.on('pointerdown', (pointer) => {
         lastpointerx = this.input.activePointer.x;
         lastpointery = this.input.activePointer.y;
         
-        penguinColor.setVelocity(velocityToTarget(penguinColor, this.input.activePointer, 3.5).velX, velocityToTarget(penguinColor, this.input.activePointer, 3.5).velY);
-        penguinBody.setVelocity(velocityToTarget(penguinColor, this.input.activePointer, 3.5).velX, velocityToTarget(penguinColor, this.input.activePointer, 3.5).velY);
+    penguinColor.setVelocity(velocityToTarget(penguinColor, this.input.activePointer, 3.5).velX, velocityToTarget(penguinColor, this.input.activePointer, 3.5).velY);
+        penguinBody.setVelocity(velocityToTarget(penguinColor, this.input.activePointer, 3.5).velX, velocityToTarget(penguinColor, this.input.activePointer, 3.5).velY); 
         
         moving = true;
 
@@ -123,7 +113,7 @@ class Interface extends Phaser.Scene {
         penguinColor.setVelocity(0,0);
         penguinBody.setVelocity(0,0);
         moving = false;
-      } 
-      } 
+      }  
+      }
     }
 }

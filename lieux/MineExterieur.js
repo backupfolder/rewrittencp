@@ -1,4 +1,8 @@
+let penguinColor, penguinBody;
+
 let mineExterieurBackground, mineBatiment, trees, tree, sign, bag, recyclebuilding, statue, fence, mur, cart1, cart2, mineDoors, flowers;
+
+let shapes;
 
 class MineExterieur extends Phaser.Scene {
 
@@ -49,13 +53,16 @@ class MineExterieur extends Phaser.Scene {
       loadingbar.destroy();
       loadingcontainer.destroy();
       // chargement termine
+      // chargement penguin + interface
       
       console.log('Chargement de la mine complete.')
       
+      shapes = this.cache.json.get('shapes');
+      
       mineExterieurBackground = this.add.image(1280/2, 720/2, 'matlasmine', 'shack/background');
       mineExterieurBackground.scale = 0.85;
-
-      recyclebuilding = this.add.sprite(90, 240, 'matlasmine', 'shack/recycle/building');
+      
+      recyclebuilding = this.matter.add.sprite(90, 240, 'matlasmine', 'shack/recycle/building', { isStatic: true });
       recyclebuilding.scale = 0.8;
       
       mineBatiment = this.add.image(670, 150, 'matlasmine', 'shack/shack_building');
@@ -84,12 +91,17 @@ class MineExterieur extends Phaser.Scene {
       flowers = this.add.image(180, 330, 'matlasmine', 'shack/flowers');
       flowers = this.add.image(850, 390, 'matlasmine', 'shack/flowers');
       
+      penguinColor = this.matter.add.sprite(800, 530, 'matlasPenguinBody', '74-44').setFrictionAir(0).setFixedRotation();
+      penguinBody = this.matter.add.sprite(800, 530, 'matlasPenguinFeatures', '74-44').setFrictionAir(0).setFixedRotation();
+      penguinColor.setCollisionGroup(-1);
+      penguinBody.setCollisionGroup(-1);
+      
       this.scene.moveBelow('interface', 'mineExterieur');
       this.scene.launch('interface');
-      
       // chargement termine
     });
     this.load.multiatlas('matlasmine', 'assets/json/mine.json', 'assets');
+    this.load.json('shapes', 'assets/json/physics/mine.json');
     this.load.start();
   }
 }
