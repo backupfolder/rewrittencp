@@ -2,6 +2,13 @@ let mineExterieurBackground, mineBatiment, trees, tree, sign, bag, recyclebuildi
 
 class MineExterieur extends Phaser.Scene {
 
+ velocityToTarget = (from, to, speed = 1) => {
+   direction = Math.atan((to.x - from.x) / (to.y - from.y));
+   speed2 = to.y >= from.y ? speed : -speed;
+
+  return { velX: speed2 * Math.sin(direction), velY: speed2 * Math.cos(direction) };
+};
+
   constructor() {
     super('mineExterieur');
   }
@@ -48,9 +55,8 @@ class MineExterieur extends Phaser.Scene {
       mineExterieurBackground = this.add.image(1280/2, 720/2, 'matlasmine', 'shack/background');
       mineExterieurBackground.scale = 0.85;
 
-      recyclebuilding = this.physics.add.sprite(90, 240, 'matlasmine', 'shack/recycle/building');
+      recyclebuilding = this.add.sprite(90, 240, 'matlasmine', 'shack/recycle/building');
       recyclebuilding.scale = 0.8;
-      recyclebuilding.body.immovable = true;
       
       mineBatiment = this.add.image(670, 150, 'matlasmine', 'shack/shack_building');
       

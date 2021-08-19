@@ -2,6 +2,12 @@ let mailIcon, mapIcon, mod, new1, news, dock, dockText, thing;
 
 let penguinColor, penguinBody, penguinTintFill = '#FF0000', moving = false, lastpointerx, lastpointery;
 
+function velocityToTarget(from, to, speed = 1)  {
+   direction = Math.atan((to.x - from.x) / (to.y - from.y));
+   speed2 = to.y >= from.y ? speed : -speed;
+
+  return { velX: speed2 * Math.sin(direction), velY: speed2 * Math.cos(direction) };
+};
 
 class Interface extends Phaser.Scene {
 
@@ -11,10 +17,9 @@ class Interface extends Phaser.Scene {
     
     create() {
 
-      penguinColor = this.physics.add.sprite(800, 530, 'matlasPenguinBody', '74-44').setSize(50, 50);
-      penguinBody = this.physics.add.sprite(800, 530, 'matlasPenguinFeatures', '74-44').setSize(50, 50);
-      penguinColor.body.onWorldBounds = true;
-      penguinBody.body.onWorldBounds = true;
+      penguinColor = this.matter.add.sprite(800, 530, 'matlasPenguinBody', '74-44').setSize(50, 50).setTintFill(penguinTintFill).setFrictionAir(0).setFixedRotation();
+      
+      penguinBody = this.matter.add.sprite(800, 530, 'matlasPenguinFeatures', '74-44').setSize(50, 50).setFrictionAir(0).setFixedRotation();
 
       // ajout de tous les boutons et de l'interactivite
       mapIcon = this.add.sprite(75, 650, 'matlasInterface', 'room_basic/tools/map/map1');
@@ -90,37 +95,35 @@ class Interface extends Phaser.Scene {
       dock = this.add.sprite(1280/2, 685, 'matlasInterface', 'room_basic/dock/dock');
       dockText = this.add.sprite(1280/2, 695, 'matlasInterface', 'room_basic/dock/dock_text');
       dockText.scale = 0.5;
-      // icones room_basic/dock/icons/dock_home
       // interface
       // penguin
-
-      penguinColor.setTintFill(penguinTintFill);
-    
+      
+      // enlever les collisions
+      penguinColor.setCollidesWith(0);
+      penguinBody.setCollidesWith(0);
+      
       // mouvement du penguin
       this.input.on('pointerdown', (pointer) => {
-        this.physics.moveToObject(penguinBody, pointer, 200);
-        this.physics.moveToObject(penguinColor, pointer, 200);
-        moving = true;
-
         lastpointerx = this.input.activePointer.x;
         lastpointery = this.input.activePointer.y;
+        
+        penguinColor.setVelocity(velocityToTarget(penguinColor, this.input.activePointer, 3.5).velX, velocityToTarget(penguinColor, this.input.activePointer, 3.5).velY);
+        penguinBody.setVelocity(velocityToTarget(penguinColor, this.input.activePointer, 3.5).velX, velocityToTarget(penguinColor, this.input.activePointer, 3.5).velY);
+        
+        moving = true;
 
       }, this);
-      // collisions
-      this.physics.add.collider(penguinBody, recyclebuilding);
-      this.physics.add.collider(penguinColor, recyclebuilding);
     // penguin
     }
     update () {
       
       // arret du penguin lorsque arrive a destination
-      if (moving = true) {
-      if ((Math.ceil(penguinBody.x/10)*10) == (Math.ceil(lastpointerx/10)* 10) && (Math.ceil(penguinBody.y/10)*10) == (Math.ceil(lastpointery/10)* 10)) {
-
-        this.physics.moveToObject(penguinBody, penguinBody, 0);
-        this.physics.moveToObject(penguinColor, penguinColor, 0);
+       if (moving = true) {
+      if ((Math.ceil(penguinColor.x/10)*10) == (Math.ceil(lastpointerx/10)* 10) && (Math.ceil(penguinColor.y/10)*10) == (Math.ceil(lastpointery/10)* 10)) {
+        penguinColor.setVelocity(0,0);
+        penguinBody.setVelocity(0,0);
         moving = false;
       } 
-      }
+      } 
     }
 }
