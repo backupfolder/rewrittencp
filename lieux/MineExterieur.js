@@ -62,8 +62,11 @@ class MineExterieur extends Phaser.Scene {
       mineExterieurBackground = this.add.image(1280/2, 720/2, 'matlasmine', 'shack/background');
       mineExterieurBackground.scale = 0.85;
       
-      recyclebuilding = this.matter.add.sprite(90, 240, 'matlasmine', 'shack/recycle/building', { isStatic: true });
+      recyclebuilding = this.matter.add.sprite(0, 0, 'matlasmine', 'shack/recycle/building', {isStatic: true, shape: shapes.recycle});
       recyclebuilding.scale = 0.8;
+      
+      recyclebuilding.setPosition(90 + recyclebuilding.body.centerOfMass.x, 240 + recyclebuilding.body.centerOfMass.y);
+      
       
       mineBatiment = this.add.image(670, 150, 'matlasmine', 'shack/shack_building');
       
@@ -91,10 +94,9 @@ class MineExterieur extends Phaser.Scene {
       flowers = this.add.image(180, 330, 'matlasmine', 'shack/flowers');
       flowers = this.add.image(850, 390, 'matlasmine', 'shack/flowers');
       
-      penguinColor = this.matter.add.sprite(800, 530, 'matlasPenguinBody', '74-44').setFrictionAir(0).setFixedRotation();
-      penguinBody = this.matter.add.sprite(800, 530, 'matlasPenguinFeatures', '74-44').setFrictionAir(0).setFixedRotation();
-      penguinBody.setCollisionGroup(-1);
-      penguinColor.setCollisionGroup(-1);
+      penguinColor = this.matter.add.sprite(800, 530, 'matlasPenguinBody', '74-44').setFrictionAir(0).setFixedRotation().setCollisionGroup(-1);
+  
+      penguinBody = this.matter.add.sprite(800, 530, 'matlasPenguinFeatures', '74-44').setFrictionAir(0).setFixedRotation().setCollisionGroup(-1);
       
       this.scene.moveBelow('interface', 'mineExterieur');
       this.scene.launch('interface');
