@@ -1,3 +1,4 @@
+https://play.cprewritten.net/assets/content/global/interface/preload/preload.json?v=1.7.10-beta
 https://play.cprewritten.net/assets/content/global/character/penguin_body.json?v=1.6.3-beta
 https://play.cprewritten.net/assets/content/global/character/penguin_features.json?v=1.6.3-beta
 https://play.cprewritten.net/assets/content/global/interface/core/i_room_basic_content_pack.json?v=1.6.3-beta
